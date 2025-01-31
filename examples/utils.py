@@ -1,14 +1,13 @@
-import re2, re
+import re
 from abbreviations import schwartz_hearst
-import inflection
 
-__re_collapse_spaces__ = re2.compile("\s+")
-__re_remove_special_chars__ = re2.compile("[;:\?\!\.\'\"\*/\),\(\|\s]+")
-__re_dot_parens__ = re2.compile("\.([A-Z])")
+__re_collapse_spaces__ = re.compile("\s+")
+__re_remove_special_chars__ = re.compile("[;:\?\!\.\'\"\*/\),\(\|\s]+")
+__re_dot_parens__ = re.compile("\.([A-Z])")
 SYMBOLS = ['..','.',',','?',';','*','!','%','^','&','+','"','(',')',':','[',']','{','}','/','|','\'','–','=','≥','>','<','≤',' ']
-__bad_tokens__ = re2.compile(r'''^(https?://.*|www\..*|[()',";?=<≥≤>\.#=:0-9/\-%«»*—–|^°]+|.*\.(jpg|png|gif|svg)|.|(?:(?:rr|or|hr|p|n)[=<>≥≤][0-9\.%]*))$''')
-__post_remove_re__ = re2.compile('(\^|—)[0-9]+|[^0-9a-z -_—]|[;\}\)\(\{\[]+')
-__post_dotspace_re__ = re2.compile('\.')
+__bad_tokens__ = re.compile(r'''^(https?://.*|www\..*|[()',";?=<≥≤>\.#=:0-9/\-%«»*—–|^°]+|.*\.(jpg|png|gif|svg)|.|(?:(?:rr|or|hr|p|n)[=<>≥≤][0-9\.%]*))$''')
+__post_remove_re__ = re.compile('(\^|—)[0-9]+|[^0-9a-z -_—]|[;\}\)\(\{\[]+')
+__post_dotspace_re__ = re.compile('\.')
 
 def collapse_spaces(s):
     return __re_collapse_spaces__.sub(" ", s).strip()

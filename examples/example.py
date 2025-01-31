@@ -4,7 +4,7 @@
 """
 Example script on howto use CSpace bio-medical embedding model
 """
-
+import sys
 from gensim.models import KeyedVectors
 from gensim.models.phrases import Phrases, Phraser, ENGLISH_CONNECTOR_WORDS
 from gensim.models import FastText
@@ -17,7 +17,13 @@ import spacy
 import numpy as np
 from utils import clean_and_normalize_word
 def init_nlp():
-    nlp = spacy.load('en_core_web_lg')   # load the language model
+    try:
+        nlp = spacy.load('en_core_web_lg')   # load the language model
+    except OSError:
+        print("Please run:")
+        print("python -m spacy download en_core_web_lg")
+        print("To install the english language model 'en_core_web_lg'")
+        sys.exit(1)
     nlp.remove_pipe('ner')               # remove the default NER
 
     return nlp
@@ -29,6 +35,8 @@ fasttext_cspace_path = 'cspace.fasttext.bin'
 dictionary_freq_path = 'cspace.dict.pkl'
 bigram_path = 'cspace.bigrams.pkl'
 
+# spacy pre-processing
+_nlp = init_nlp()
 # RECOMMENDED:
 # load CSpace full model (KeyedVectors format)
 # in keyedvectors format (CANNOT SYNTHESIZE WORDS NOT SEEN DURING TRAINING)
@@ -37,10 +45,10 @@ bigram_path = 'cspace.bigrams.pkl'
 
 # load CSpace full model (FastText format)
 # in FastText format (CAN SYNTHESIZE WORDS NOT SEEN DURING TRAINING)
-# cspace_model = load_facebook_model(fasttext_cspace_path)
+cspace_model = load_facebook_model(fasttext_cspace_path)
 
 # load CSpace compressed model
-cspace_model = compress_fasttext.models.CompressedFastTextKeyedVectors.load(cspace_compressed_path)
+# cspace_model = compress_fasttext.models.CompressedFastTextKeyedVectors.load(cspace_compressed_path)
 
 ## AUXILIARY MODELS
 # load composite words model based on co-occurrence of words
@@ -49,12 +57,11 @@ cspace_phrases = Phrases.load(bigram_path)
 
 dictionary = Dictionary.load(dictionary_freq_path)
 
-# spacy pre-processing
-_nlp = init_nlp()
-
 # DISEASE-CONDITION RELATEDNESS
 cspace_model.similarity('long_covid','myalgic_encephalomyelitis')
 # 0.8102189
+cspace_model.similarity('covid','myalgic_encephalomyelitis')
+# 0.60641325
 cspace_model.similarity('long_covid','fatigue')
 # 0.8102189
 cspace_model.similarity('long_covid','post-exertional_malaise')
@@ -67,17 +74,12 @@ cspace_model.similarity('long_covid','cough')
 # 0.5306381
 cspace_model.similarity('long_covid','dizziness')
 # 0.564164
-cspace_model.similarity('long_covid','dizziness')
-# 0.564164
 cspace_model.similarity('long_covid','joint_pain')
 # 0.52039963
 cspace_model.similarity('long_covid','joint_or_muscle_pain')
 # 0.50613415
 cspace_model.similarity('long_covid','rash')
 # 0.45096865
-
-cspace_model.similarity('covid','myalgic_encephalomyelitis')
-# 0.60641325
 
 # CONCEPT SIMILARITY
 cspace_model.most_similar(positive=['fatigue','myalgic_encephalomyelitis'])
