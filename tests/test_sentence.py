@@ -231,9 +231,9 @@ if __name__ == "__main__":
         model = load_facebook_vectors(path)
         name = os.path.split(path)[1]
     else:
-        model = KeyedVectors.load_word2vec_format(path, binary=True, unicode_errors='ignore')
+        #model = KeyedVectors.load_word2vec_format(path, binary=True, unicode_errors='ignore')
         name = os.path.split(path)[1]
-        #model = KeyedVectors.load(path, mmap=None)
+        model = KeyedVectors.load(path, mmap=None)
         #model = compress_fasttext.models.CompressedFastTextKeyedVectors.load(path)
 
     # restrict vocabulary
