@@ -1,0 +1,16 @@
+Conversion source: https://uts.nlm.nih.gov/uts/umls/
+
+Mayo:
+C2267026 replaced with C0360714
+C1527356 replaced with C0042344
+C0011127 replaced with C4554531
+
+
+relatedness:
+C0009951 replaced with C0036572
+C0031763 replaced with C0349506
+C1883552 replaced with C0004093
+C1998461 replaced with C0020517
+C0947651 replaced with C0037125
+C0220892 replaced with C0030842
+C0557875 replaced with C0849970
