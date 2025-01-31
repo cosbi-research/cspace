@@ -7,7 +7,7 @@ Script to generate data displayed in Table 5 of paper
 
 from gensim.test.utils import datapath
 from gensim.models import KeyedVectors
-from gensim.models.fasttext import load_facebook_vectors
+from gensim.models.fasttext import load_facebook_vectors,load_facebook_model
 from gensim.models.phrases import Phrases, Phraser, ENGLISH_CONNECTOR_WORDS
 from gensim.models import FastText,Word2Vec
 import compress_fasttext
@@ -222,13 +222,13 @@ if __name__ == "__main__":
     else:
         sys.exit(1)
 
-    fasttext=path.endswith('.fb.bin')
+    fasttext=path.endswith('.fasttext.bin')
     # this doesn't allow to account of out-of-vocabulary words of FastText.. use full model
     if openai_key is not None:
         model=None
         name='text-embedding-ada-002'
     elif fasttext:
-        model = load_facebook_vectors(path)
+        model = load_facebook_model(path)
         name = os.path.split(path)[1]
     else:
         #model = KeyedVectors.load_word2vec_format(path, binary=True, unicode_errors='ignore')
