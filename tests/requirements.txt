@@ -1,0 +1,9 @@
+gensim==4.1.2
+scipy==1.5.4
+compress_fasttext==0.1.5
+scikit-learn==1.3.2
+requests==2.27.1
+openai==0.28.0
+abbreviations==0.2.5
+spacy==2.3.5
+pyemd==1.0.0
