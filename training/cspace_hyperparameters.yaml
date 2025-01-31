@@ -1,0 +1,24 @@
+w2v:
+  alpha: 0.125
+  epochs: 1
+  hs: 0
+  max_n: 6
+  min_alpha: 0.125
+  min_count: 5
+  min_n: 3
+  negative: 35
+  ns_exponent: 0.75
+  sample: 0.00001
+  sg: 1
+  vector_size: 152
+  window: 20
+  batch_words: 10000
+  workers: 8
+
+finetune:
+  epochs: 5
+  alpha: 0.03
+  min_alpha: 0.0001
+  negative: 5
+  workers: 7
+
