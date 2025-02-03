@@ -1,4 +1,6 @@
-![CSpace logo](logo.png "CSpace")
+<p align="center">
+  <img src="https://media.githubusercontent.com/media/cosbi-research/cspace/refs/heads/main/logo.png" alt="CSpace logo"/>
+</p>
 
 CSpace is a concise word embedding of bio-medical concepts that outperforms all alternatives in terms of out-of-vocabulary ratio (OOV) and semantic textual similarity (STS) task and have comparable performance with respect to transformer-based alternatives in the sentence similarity task.
 
