@@ -8,7 +8,10 @@ CSpace also encodes ontological IDs (MeSH, NCBI gene and tax ID) and can be used
 
 All our fine-tuned embeddings can be obtained from Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14781672.svg)](https://doi.org/10.5281/zenodo.14781672)
 
-
+# Table of Contents
+- [Run the performance tests](#run-the-performance-tests)
+- [Build training dataset](#build-training-dataset)
+- [Training code and hyperparameters](#training-code-and-hyperparameters)
 
 # Quick start with CSpace
 
