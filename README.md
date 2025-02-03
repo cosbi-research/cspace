@@ -42,6 +42,10 @@ to get the correlation between CSpace and human judgement on BIOSSES sentence si
 python test_sentence.py cspace.kv.bin cspace.bigrams.pkl cspace.dict.pkl
 ```
 
+# Build training dataset
+
+Go to the `preprocessing` folder for a complete description on how to re-build the training dataset from the raw data-sources.
+In `preprocessing/preprocessed_data` you can find a sample of 81K already pre-processed publications.
 
 # Training code and hyperparameters
 
