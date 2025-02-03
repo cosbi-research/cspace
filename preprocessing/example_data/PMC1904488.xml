@@ -1,0 +1,1699 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN" "archivearticle.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">9200566</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21041</journal-id>
+      <journal-id journal-id-type="nlm-ta">Trends Cell Biol</journal-id>
+      <journal-title>Trends in cell biology</journal-title>
+      <issn pub-type="ppub">0962-8924</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">16139503</article-id>
+      <article-id pub-id-type="pmc">1904488</article-id>
+      <article-id pub-id-type="doi">10.1016/j.tcb.2005.08.005</article-id>
+      <article-id pub-id-type="manuscript">NIHMS13801</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Coincidence detection in phosphoinositide signaling</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carlton</surname>
+            <given-names>Jez G.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cullen</surname>
+            <given-names>Peter J.</given-names>
+          </name>
+          <xref rid="FN1" ref-type="author-notes"/>
+        </contrib>
+        <aff id="A1">Department of Biochemistry, School of Medical Sciences, University of Bristol, Clifton, Bristol, UK BS8 1TD</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="FN1">Corresponding author: Cullen, P.J. (<email>pete.cullen@bristol.ac.uk</email>).</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>24</day>
+        <month>11</month>
+        <year>2006</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>10</month>
+        <year>2005</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>2</day>
+        <month>7</month>
+        <year>2007</year>
+      </pub-date>
+      <volume>15</volume>
+      <issue>10</issue>
+      <fpage>540</fpage>
+      <lpage>547</lpage>
+      <permissions>
+        <license>
+          <p>This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P1">Phosphoinositide lipids function as both signaling molecules and as compartment-specific localization signals for phosphoinositide-binding proteins. In recent years, both phosphoinositides and phosphoinositide-binding proteins have been reported to display a restricted, rather than a uniform, distribution across intracellular membranes. Here, we examine recent data documenting the restricted distribution of both phosphoinositides and phosphoinositide-binding proteins and examine how phosphoinositide-binding proteins might engage multiple binding partners to achieve these restricted localizations, effectively acting as detectors of coincident localization signals.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="S1">
+      <title>Introduction</title>
+      <p id="P2">Phosphoinositides are a family of stereochemically distinct phosphorylated derivatives of the minor membrane lipid phosphatidylinositol (PtdIns; <xref rid="F1" ref-type="fig">Figure 1</xref>). Phosphoinositides function both as signaling molecules and as localization cues, allowing for the recruitment of phosphoinositide-binding proteins to phosphoinositide-containing membranes [<xref rid="R1" ref-type="bibr">1</xref>]. Phosphoinositide-binding proteins commonly contain modular phosphoinositide-binding domains, such as <underline>p</underline>leckstrin <underline>h</underline>omology (PH); <underline>p</underline>ho<underline>x</underline>-homology (PX); <underline>F</underline>ab1, <underline>Y</underline>otB, <underline>V</underline>ac1, <underline>E</underline>EA1 (FYVE) and <underline>e</underline>psin ami<underline>n</underline>o-<underline>t</underline>erminal <underline>h</underline>omology (ENTH) domains [<xref rid="R1" ref-type="bibr">1</xref>–<xref rid="R4" ref-type="bibr">4</xref>] (<xref rid="F2" ref-type="fig">Figure 2</xref>). This review will not attempt to catalogue the lipid-binding capabilities of these domains – for such information, readers are referred to excellent discussions of this subject elsewhere [<xref rid="R1" ref-type="bibr">1</xref>–<xref rid="R4" ref-type="bibr">4</xref>]. Here, we explore mechanisms that allow phosphoinositides and phosphoinositide-binding proteins to adopt a restricted distribution over cellular membranes.</p>
+    </sec>
+    <sec id="S2">
+      <title>Phosphoinositides as targeting modules</title>
+      <p id="P3">Phosphatidylinositol comprises ~8% of the total cellular phospholipid content [<xref rid="R5" ref-type="bibr">5</xref>]. Intracellular membranes are enriched in various phosphoinositides, present at levels of between 0.01–5% of that observed for PtdIns itself [<xref rid="R6" ref-type="bibr">6</xref>]. Phosphoinositides are not uniformly distributed among intracellular membranes but appear enriched upon different organelles (<xref rid="F3" ref-type="fig">Figure 3</xref>); for example, PtdIns(4,5)<italic>P</italic><sub>2</sub> is enriched upon the inner leaflet of the plasma membrane and present upon membranes of the Golgi, whereas PtdIns(3)<italic>P</italic> appears restricted to membranes of the endosomal system, and PtdIns(4)<italic>P</italic> appears present upon the Golgi and plasma membrane [<xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R7" ref-type="bibr">7</xref>]. Accounting for the proportional area of individual membranes, it has been estimated that the more abundant PtdIns(3)<italic>P</italic>, PtdIns(4)<italic>P</italic> and PtdIns(4,5)<italic>P</italic><sub>2</sub> lipids comprise ~4–5% of the total lipid content on the cytosolic face of their host organelles [<xref rid="R4" ref-type="bibr">4</xref>]. In this manner, phosphoinositides act as compartment-specific recognition signals for cytosolic binding partners and assist in the targeting of peripheral membrane proteins to these membranes.</p>
+    </sec>
+    <sec id="S3">
+      <title>Avidity-mediated targeting</title>
+      <p id="P4">Phosphoinositide-binding domains commonly bind phosphoinositides with low affinities, favoring a highly plastic system whereby phosphoinositide-binding proteins can continually sample the membrane environment, searching out and becoming enriched at sites of phosphoinositide presence [<xref rid="R1" ref-type="bibr">1</xref>]. Weak binding is often enhanced through avidity effects (for example, as induced by oligomerization) and the ability to engage substrates in addition to the phosphoinositide lipid. A classic example of avidity-based targeting is observed for dynamin, a PH-domain-containing GTPase that regulates vesicle scission from membranes. In isolation, the dynamin PH domain interacts only weakly with membranes, but forced dimerization of dynamin PH domains greatly enhances the strength of membrane interaction [<xref rid="R8" ref-type="bibr">8</xref>]. In other words, the ability of a protein complex to engage multiply with the lipid surface enhances the avidity of that complex for such surfaces. Avidity-mediated enhancement in binding strength is due not only to the additive affinities of individual monomers but is assisted by a spatial constraint in that individual dissociated monomers remain in close proximity to, and thus have a higher probability of re-binding, their substrate. Avidity effects can be likened to the ability of Velcroe™ to create a high-strength bond despite the relatively weak strength of the interaction between individual hooks and loops, and such effects are thought to drive productive association of many peripheral membrane proteins with surfaces containing both lipid and non-lipid binding sites.</p>
+    </sec>
+    <sec id="S4">
+      <title>Plasma membrane microdomains of phosphoinositides</title>
+      <p id="P5">Early reports, employing a GFP-tagged PtdIns(4,5)<italic>P</italic><sub>2</sub>-binding PLCδ1-PH domain, demonstrated an apparently uniform distribution of this lipid within the inner leaflet of the plasma membrane [<xref rid="R9" ref-type="bibr">9</xref>]. However, recent advances in fluorescent imaging, and the electron-microscopical (EM) examination of lipid-binding probes upon pre-fixed tissues [<xref rid="R10" ref-type="bibr">10</xref>], have led us to question just how ‘uniform’ the distribution of PtdIns(4,5)<italic>P</italic><sub>2</sub> actually is. Using high-resolution microscopy, Czech and colleagues demonstrated that the PLCdelta;1-PH domain decorated stable patches upon the plasma membrane of 3T3-L1 adipocytes [<xref rid="R11" ref-type="bibr">11</xref>]. Examination of concanavalin-A (a membrane-binding lectin) and BODIPY-HPC (a lipid dye) enrichment within these microdomains, demonstrated that, in contrast to previous reports [<xref rid="R12" ref-type="bibr">12</xref>], the enrichment of PLCdelta;1-PH at these sites was greater than that provided for by local membrane folding, suggesting that mechanisms existed to restrict the localization of PtdIns(4,5)<italic>P</italic><sub>2</sub> to microdomains at the plasma membrane. Similarly, using the PLCdelta;1-PH domain, or antisera specific for PtdIns(4,5)<italic>P</italic><sub>2</sub>, PtdIns(4,5)<italic>P</italic><sub>2</sub> microdomains have been detected in the plasma membrane of PC12 cells [<xref rid="R13" ref-type="bibr">13</xref>], in COS cells and in neuronal growth cones [<xref rid="R14" ref-type="bibr">14</xref>]. Use of a GST-tagged PLCdelta;1-PH domain upon pre-fixed 1321N1 human astrocytoma cells demonstrated that, at EM resolution, this probe decorated lamellipodia-like profiles at the plasma membrane [<xref rid="R15" ref-type="bibr">15</xref>], consistent with the body of evidence implicating PtdIns(4,5)<italic>P</italic><sub>2</sub> in the control of actin dynamics [<xref rid="R16" ref-type="bibr">16</xref>–<xref rid="R18" ref-type="bibr">18</xref>]. Evidence therefore suggests the presence of plasma membrane microdomains of PtdIns(4,5)<italic>P</italic><sub>2</sub>, but what function could these patches have?</p>
+      <p id="P6">Interestingly, clathrin and polymerized actin were found immediately beneath these patches of PtdIns(4,5) <italic>P</italic><sub>2</sub> [<xref rid="R11" ref-type="bibr">11</xref>], and it has recently been shown that these patches promote actin polymerization through the actin-regulatory protein neural Wiskott–Aldrich syndrome protein (N-WASP) [<xref rid="R19" ref-type="bibr">19</xref>]. N-WASP itself binds PtdIns(4,5)<italic>P</italic><sub>2</sub> in a highly cooperative mechanism by means of a lysine-rich domain [<xref rid="R20" ref-type="bibr">20</xref>], allowing it to respond in a switch-like manner to increases in PtdIns(4,5)<italic>P</italic><sub>2</sub> density. Normally, N-WASP inhibits Arp2/3-dependent actin polymerization, but this inhibition can be relieved through its binding to PtdIns(4,5)<italic>P</italic><sub>2</sub>, suggesting that restricted localization of PtdIns(4,5)<italic>P</italic><sub>2</sub> to high-concentration patches might function to locally activate the Arp2/3 complex and regulate actin dynamics in the vicinity of these domains.</p>
+    </sec>
+    <sec id="S5">
+      <title>Ordered lipids and phosphoinositide microdomains</title>
+      <p id="P7">The partitioning of lipids into ‘ordered’ or ‘disordered’ phases, due to the abilities of their acyl chains to pack together [<xref rid="R21" ref-type="bibr">21</xref>,<xref rid="R22" ref-type="bibr">22</xref>], has long been considered a mechanism of compartmentalizing membranes. Regions of ordered lipids often contain cholesterol, sphingolipids and glyco-sylphosphatidylinositol-anchored proteins and have become known as ‘rafts’. PtdIns(4,5)<italic>P</italic><sub>2</sub>-rich patches at the plasma membrane have been shown to contain cholesterol and ordered-lipids [<xref rid="R20" ref-type="bibr">20</xref>] and were found to colocalize with raft-enriched, actin-regulatory, GAP-43-like proteins such as GAP43, MARCKS (myristoylated alanine-rich C kinase substrate) and CAP23 [<xref rid="R14" ref-type="bibr">14</xref>]. Thus, the presence of ordered and disordered membrane microdomains might induce lateral segregation of phosphoinositide lipids within cellular membranes, providing a possible mechanism for microdomain biogenesis.</p>
+      <p id="P8">However, before leaving with the notion that the presence of PtdIns(4,5)<italic>P</italic><sub>2</sub> microdomains is universally accepted, it would be prudent to note some counterarguments. Just as phosphoinositides can recruit proteins to membranes, some proteins are able to laterally recruit phosphoinositides within the bilayer; for example, GAP-43-like proteins, and possibly the PLCdelta;1-PH domain itself, seem able to cluster PtdIns(4,5)<italic>P</italic><sub>2</sub> upon liposomes <italic>in vitro</italic> [<xref rid="R23" ref-type="bibr">23</xref>,<xref rid="R24" ref-type="bibr">24</xref>]. Indeed, triton X-100, a detergent commonly used in immunofluorescence protocols, can even induce PtdIns(4,5)<italic>P</italic><sub>2</sub> clustering <italic>in vivo</italic> [<xref rid="R25" ref-type="bibr">25</xref>]. So, while a body of evidence exists describing plasma membrane patches of PtdIns(4,5)<italic>P</italic><sub>2</sub>, these data must also come with a caution; for, like Schrödinger’s cat, the very tools used to examine phosphoinositides might induce lipid microdomains themselves.</p>
+    </sec>
+    <sec id="S6">
+      <title>Restricted localization of phosphoinositides upon internal membranes</title>
+      <p id="P9">As well as the plasma membrane patches of PtdIns(4,5)<italic>P</italic><sub>2</sub> described above, evidence exists for restricted localization of phosphoinositides upon internal membranes. At EM resolution, a multimerized-FYVE domain from Hrs (2xFYVE<sup>hrs</sup>), detected PtdIns(3)<italic>P</italic> exclusively upon endosomal membranes and the inner vesicles of multivesicular bodies [<xref rid="R26" ref-type="bibr">26</xref>]. Further work, using Alexa<sup>488</sup>- and biotinylated-2xFYVE<sup>hrs</sup> probes at confocal resolution, demonstrated the existence of PtdIns(3)<italic>P</italic> microdomains upon the surface of artificially enlarged endosomes and large endosomes in HepG2 cells. These microdomains contained some PtdIns(3)<italic>P</italic>-binding proteins, including EEA1 (early endosomal antigen-1), but excluded others, such as Hrs [<xref rid="R27" ref-type="bibr">27</xref>]. Thus, the lipid species upon the cytosolic face of endosomes seem able to adopt a non-uniform distribution and phosphoinositide-binding proteins themselves can adopt a restricted distribution across these membranes.</p>
+    </sec>
+    <sec id="S7">
+      <title>Creating non-uniform phosphoinositide distributions</title>
+      <p id="P10">How might these microdomains form? One can imagine how barriers must exist to prevent lateral diffusion of these lipids. If phosphoinositide-binding proteins can cluster phosphoinositides within the bilayer [<xref rid="R23" ref-type="bibr">23</xref>,<xref rid="R24" ref-type="bibr">24</xref>], perhaps recruitment and oligomerization of phosphoinositide-binding proteins themselves will stabilize phosphoinositides within membranes. Alternatively, spatial regulation of phosphoinositide-kinase and -phosphatase activities might also contribute towards microdomain formation.</p>
+      <sec id="S8">
+        <title>Activation of kinases</title>
+        <p id="P11">The PtdIns 3-kinase complex mVps34/p150 is an effector of Rab5 (see Glossary) [<xref rid="R28" ref-type="bibr">28</xref>], an endosomally localized GTPase. Rab5 activation directs cytosolic mVps34 to specific sites upon endosomes, leading to the localized production of PtdIns(3)<italic>P</italic> and the recruitment of PtdIns(3)<italic>P</italic>-binding proteins, such as EEA1 (see <xref rid="BX1" ref-type="boxed-text">Box 1</xref>), in a GTP–Rab5-dependent manner [<xref rid="R29" ref-type="bibr">29</xref>,<xref rid="R30" ref-type="bibr">30</xref>]. GTP–Rab5 can also recruit a complex of Rabaptin5–Rabex5. Rabex5 (a Rab5 activator) can enhance GTP loading upon Rab5, and its recruitment is thought to stabilize GTP–Rab5 at specific sites upon endosomes [<xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R31" ref-type="bibr">31</xref>]. Thus, stabilization of GTP–Rab5 upon endosomes, coupled to the recruitment of PtdIns 3-kinases to Rab5 domains might contribute to the formation of PtdIns(3)<italic>P</italic>-enriched microdomains upon endosomes.</p>
+        <p id="P12">Positive-feedback control of phosphoinositide synthesis can also occur at the plasma membrane. Type-I PtdIns(4)<italic>P</italic> 5-kinase-α can be activated by both GTP–Arf6 and phosphatidic acid [<xref rid="R16" ref-type="bibr">16</xref>], and its lipid product, PtdIns(4,5)<italic>P</italic><sub>2</sub>, can activate phospholipase D to produce phosphatidic acid [<xref rid="R32" ref-type="bibr">32</xref>]. Thus, it can be seen that PtdIns(4)<italic>P</italic> 5-kinase-α activation might be augmented through PtdIns(4,5)<italic>P</italic><sub>2</sub>-mediated activation of phospholipase D [<xref rid="R1" ref-type="bibr">1</xref>], leading to a restricted burst of PtdIns(4,5)<italic>P</italic><sub>2</sub> production. Thus, feed-forward control of kinase activity might contribute towards non-uniform phosphoinositide localization across intracellular membranes.</p>
+      </sec>
+      <sec id="S9">
+        <title>Activation of phosphatases</title>
+        <p id="P13">Phosphoinositide phosphatases can also shape the phosphoinositide distribution across membranes. PTEN (phosphatase and tensin homolog deleted on chromosome 10), dephosphorylates PtdIns(3,4,5)<italic>P</italic><sub>3</sub> to generate PtdIns(4,5) <italic>P</italic><sub>2</sub> [<xref rid="R33" ref-type="bibr">33</xref>]. In <italic>Dictyostelium discoideum</italic>, PtdIns(3,4,5)<italic>P</italic><sub>3</sub> is generated at the leading edge of the cell in response to chemoattractants [<xref rid="R34" ref-type="bibr">34</xref>], where it defines the direction of migration. This definition is enhanced through recruitment of PTEN to the posterior edge of the cell [<xref rid="R34" ref-type="bibr">34</xref>], demonstrating that restricted localization of phosphatases can shape the phosphoinositide profile across a single membrane. Indeed, like kinases, phosphatases are subject to feed-forward activity control. PTEN can be allo-sterically activated through the binding of its lipid product, PtdIns(4,5)<italic>P</italic><sub>2</sub>, enhancing its ability to dephosphorylate PtdIns(3,4,5)<italic>P</italic><sub>3</sub> [<xref rid="R35" ref-type="bibr">35</xref>]. Similarly, myotubularin-1, -3 and -6, which are PtdIns(3,5)<italic>P</italic><sub>2</sub> 3-phosphatases, are allosterically activated by their lipid product, PtdIns(5)<italic>P</italic> [<xref rid="R36" ref-type="bibr">36</xref>], suggesting that membranes containing allosteric activators provide a suitable environment for phosphatase activity and that phosphoinositide gradients might be sharpened through feed-forward control of kinase and phosphatase activation.</p>
+        <boxed-text id="BX1" position="float">
+          <sec id="S10">
+            <title>Box 1. Proteins that can bind phosphoinositides</title>
+            <p id="P14"><bold>Cvt13p/Cvt20p:</bold> Two PX-domain-containing proteins that operate in the yeast cytosol-to-vacuole trafficking pathway. Cvt13p is also known as Snx4p.</p>
+            <p id="P15"><bold>Centaurins:</bold> PH-domain-containing Arf-GTPase-activating proteins that deactivate Arfs by promoting GTP hydrolysis.</p>
+            <p id="P16"><bold>Disabled-1, Disabled-2:</bold> Mammalian adaptor proteins containing a phosphoinositide- and cargo-binding phosphotyrosine-binding domain.</p>
+            <p id="P17"><bold>Dynamin:</bold> A PH-domain-containing GTPase intrinsically linked with the scission of vesicles from membranes.</p>
+            <p id="P18"><bold>EEA1:</bold> Early endosomal antigen-1. A FYVE-domain-containing protein that binds GTP–Rab5 and controls endosome fusion.</p>
+            <p id="P19"><bold>FAPP-1, FAPP-2:</bold> Four-phosphate adaptor protein-1, four-phosphate adaptor protein-2. PH-domain-containing adaptor proteins that regulate secretory cargo export from the TGN.</p>
+            <p id="P20"><bold>GAP-43 like proteins (GAP-43, CAP-23 and MARCKS):</bold> Raft-enriched protein kinase C substrates that bind and localize with PtdIns(4,5)<italic>P</italic><sub>2</sub>.</p>
+            <p id="P21"><bold>Hrs:</bold> Hepatocyte-growth-factor-regulated tyrosine kinase substrate. An FYVE-domain-containing protein that is a key regulator of degradative sorting within the endosomal system.</p>
+            <p id="P22"><bold>Myotubularins:</bold> GRAM- and FYVE-domain-containing phosphoinositide 3-phosphatases.</p>
+            <p id="P23"><bold>N-WASP:</bold> Neuronal Wiskott–Aldrich syndrome protein. Interacts with the Arp2/3 complex to initiate actin polymerization and can bind PtdIns(4,5)<italic>P</italic><sub>2</sub> through an uncharacterized basic domain.</p>
+            <p id="P24"><bold>Oligophrenins:</bold> PH-domain-containing GTPase-activating proteins that act upon Rho-family GTPases.</p>
+            <p id="P25"><bold>OSBP:</bold> Oxysterol-binding protein. A Golgi-resident PH-domain-containing protein implicated in vesicle trafficking, signal transduction and lipid metabolism.</p>
+            <p id="P26"><bold>Phospholipase-C:</bold> A PH-domain-containing phospholipid lipase that hydrolyses PtdIns(4,5)<italic>P</italic><sub>2</sub> to Ins(1,4,5)<italic>P</italic><sub>3</sub> and diacylglycerol.</p>
+            <p id="P27"><bold>Phospholipase-D:</bold> A PX- and PH-domain-containing phospholipid lipase that hydrolyses phosphatidylcholine to phosphatidic acid.</p>
+            <p id="P28"><bold>Sorting nexins:</bold> A family of PX-domain-containing proteins thought to regulate endosomal trafficking decisions.</p>
+          </sec>
+        </boxed-text>
+      </sec>
+    </sec>
+    <sec id="S11">
+      <title>Communication through phosphoinositide metabolism</title>
+      <p id="P29">The finding that some phosphoinositide-binding modules can bind to multiple phosphoinositides raises rather intriguing points: either a homo-oligomeric complex will localize to membranes enriched in all these lipids, or phosphoinositide metabolism might allow for communication between individual phosphoinositide-containing regions. For example, the PX-domain of SNX5 binds PtdIns(3)<italic>P</italic> and PtdIns(3,4)<italic>P</italic><sub>2</sub>. In resting cells, SNX5 resides upon PtdIns(3)<italic>P</italic>-enriched endosomes but, after epidermal growth factor (EGF) stimulation, translocates to the PtdIns(3,4)<italic>P</italic><sub>2</sub>-enriched plasma membrane [<xref rid="R37" ref-type="bibr">37</xref>], suggesting that its localization can be modulated by phosphoinositide metabolism. Indeed, PtdIns(3,4)<italic>P</italic><sub>2</sub> has also been detected upon the internal vesicles of multivesicular bodies (MVBs), raising the possibility that conversion of PtdIns(3)<italic>P</italic> to PtdIns(3,4)<italic>P</italic><sub>2</sub> might regulate some facet of MVB biogenesis (<xref rid="F3" ref-type="fig">Figure 3</xref>) [<xref rid="R38" ref-type="bibr">38</xref>]. Additionally, PIKfyve, a PtdIns(3)<italic>P</italic> 5-kinase that phosphorylates PtdIns(3)<italic>P</italic> to form PtdIns(3,5)<italic>P</italic><sub>2</sub>, localizes to endosomes through its PtdIns(3)<italic>P</italic>-binding FYVE domain [<xref rid="R39" ref-type="bibr">39</xref>]. It can be hypothesized that localized PIKfyve activity will create a microdomain of PtdIns(3,5)<italic>P</italic><sub>2</sub> upon endosomes, excluding PtdIns(3)<italic>P</italic>-binding proteins and recruiting those able to bind PtdIns(3,5)<italic>P</italic><sub>2</sub>. The recent description of endosomally localized PtdIns(3,5)<italic>P</italic><sub>2</sub>-binding proteins, such as Svp1p [<xref rid="R40" ref-type="bibr">40</xref>], Ent3p [<xref rid="R41" ref-type="bibr">41</xref>], Ent5p [<xref rid="R42" ref-type="bibr">42</xref>] and mVps24 [<xref rid="R43" ref-type="bibr">43</xref>], will hopefully allow visualization of the relationship between endosomal PtdIns(3)<italic>P</italic> and PtdIns(3,5)<italic>P</italic><sub>2</sub> and reveal whether biological processivity can occur between domains containing these lipids.</p>
+    </sec>
+    <sec id="S12">
+      <title>Coincidence detection to restrict protein distribution</title>
+      <p id="P30">It is becoming clear that phosphoinositide-binding proteins themselves can adopt a restricted distribution across cellular membranes. A genome-wide analysis of the 33 yeast PH domains revealed that, of those that could bind phosphoinositides, most did so weakly and promiscuously, yet still localized to membranes in a phosphoinositide-dependent manner. Indeed, PH domains with similar phosphoinositide-binding specificities could localize differentially in cells, suggesting that factors other than phosphoinositides can restrict the localization of PH-domain-containing proteins [<xref rid="R44" ref-type="bibr">44</xref>]. A similar picture is seen with the genome-wide screen of the 15 yeast PX domains. While all bar one bound PtdIns(3)P, most did so with such low affinity that membrane localization was thought to require the engagement of other factors to enhance the strength of membrane binding [<xref rid="R45" ref-type="bibr">45</xref>]. Indeed, restricted localization of the PX-domain-containing yeast proteins Cvt13p and Cvt20p to the pre-autophagosome required Apg14p expression, suggesting that Apg14p modulated the localization of these phosphoinositide-binding proteins [<xref rid="R46" ref-type="bibr">46</xref>]. Furthermore, while both EEA1 and Hrs contain PtdIns(3)<italic>P</italic>-binding FYVE domains [<xref rid="R47" ref-type="bibr">47</xref>], the endogenous proteins do not overlap perfectly upon endosomes [<xref rid="R27" ref-type="bibr">27</xref>,<xref rid="R48" ref-type="bibr">48</xref>]. Hrs localizes to a clathrin-containing bilayered coat upon endosomes in a manner requiring its FYVE domain and coiled-coil region [<xref rid="R48" ref-type="bibr">48</xref>], whereas EEA1 localizes to distinct regions in a manner requiring both its FYVE domain and its Rab5-binding domain [<xref rid="R27" ref-type="bibr">27</xref>,<xref rid="R29" ref-type="bibr">29</xref>]. So, engagement of ligands other than phosphoinositides might be a common mechanism employed by a variety of phosphoinositide-binding modules to enhance avidity for surfaces and to impose a restriction upon their localization.</p>
+      <sec id="S13">
+        <title>Coincidence detection of small GTPases and phosphoinositides</title>
+        <p id="P31">The distribution of small monomeric GTPases among cellular membranes can, in many cases, act to restrict the localization of many phosphoinositide-binding proteins. For example, the FAPPs (four-phosphate-adaptor proteins) localize to the <italic>trans</italic>-Golgi network (TGN) in a manner requiring binding to both PtdIns(4)<italic>P</italic> and Arf1 [<xref rid="R49" ref-type="bibr">49</xref>]. Oxysterol-binding-protein (OSBP), another Golgi resident, has a PH domain that binds PtdIns(4)<italic>P</italic>, PtdIns(4,5)<italic>P</italic><sub>2</sub> and Arf1 [<xref rid="R50" ref-type="bibr">50</xref>], and the adaptor-protein (AP) complex AP-1 localizes to the TGN in a manner requiring both Arf1 and binding to PtdIns(4)<italic>P</italic> [<xref rid="R51" ref-type="bibr">51</xref>–<xref rid="R53" ref-type="bibr">53</xref>]. Thus, Arf1 and 4-phosphoinositides appear to provide a combinatorial targeting mechanism for Golgi localization (<xref rid="F4" ref-type="fig">Figure 4a</xref>).</p>
+        <p id="P32">Osh1p and Osh2p, yeast orthologs of OSBP, contain highly similar PH domains that can bind PtdIns(4)<italic>P</italic>. While Osh2p-PH detects both plasma-membrane- and Golgi-localized PtdIns(4)<italic>P</italic>, Osh1p-PH detects solely Golgi-resident PtdIns(4)<italic>P</italic> [<xref rid="R54" ref-type="bibr">54</xref>]. Selective recognition of Golgi-localized PtdIns(4)<italic>P</italic> by Osh1p-PH stemmed from a putative membrane-receptor-interacting site within the Osh1p-PH domain, absent from the Osh2p-PH domain, suggesting that this site confers a Golgi-localization cue. Furthermore, Cla4p, a yeast PAK-related protein kinase, localized to sites of polarized growth at the plasma membrane, in a manner requiring its PH domain to bind to PtdIns(4)<italic>P</italic> and its p21-binding domain to bind to plasma-membrane-localized Cdc42, a Rho-family GTPase [<xref rid="R55" ref-type="bibr">55</xref>]. Thus, Cla4p appears to be a coincidence detector of plasma-membrane-localized PtdIns(4)<italic>P</italic> and Cdc42, whereas Osh1p and the FAPPs appear to be coincidence detectors selecting for Golgi membranes enriched in PtdIns(4)<italic>P</italic> and Arf1.</p>
+      </sec>
+      <sec id="S14">
+        <title>Coincidence detection through cargo–phosphoinositide interactions</title>
+        <p id="P33">Assembly of adaptor-protein complexes, often in conjunction with clathrin, and in a manner dependent upon phosphoinositides, allows for concentration of cargo into nascent carriers, a key step in every membrane-trafficking process [<xref rid="R56" ref-type="bibr">56</xref>]. Recently, it has been shown that proper assembly of the AP-2 complex requires coincident binding of both motif-containing cargo and PtdIns(4,5)<italic>P</italic><sub>2</sub> and that these interactions are mutually stabilizing [<xref rid="R57" ref-type="bibr">57</xref>]. These data demonstrate that cargo itself can initiate the assembly of the AP-2 complex and explain why this complex assembles exclusively at the plasma membrane – this is where the PtdIns(4,5)<italic>P</italic><sub>2</sub> is. Indeed, the crystal structures of the adaptor proteins disabled-1 and disabled-2 show that both phosphoinositide-binding and peptide-binding sites upon their PH-domain-like phosphotyrosine-binding domain were simultaneously occupied [<xref rid="R58" ref-type="bibr">58</xref>], suggesting that these, and possibly other adaptor-proteins or coat complexes, might localize to membranes through coincident detection of cargo and phosphoinositides (<xref rid="F4" ref-type="fig">Figure 4b</xref>).</p>
+      </sec>
+      <sec id="S15">
+        <title>Coincidence detection through binding to multiple lipids</title>
+        <p id="P34">Lipids themselves might provide another mechanism to restrict protein distribution. p47<sup>phox</sup>, a component of the NADPH oxidase complex, has a PX domain that binds PtdIns(3,4)<italic>P</italic><sub>2</sub>. However, a distinct site within its PX domain is able to bind to acidic lipids such as phosphatidic acid (PtdOH) [<xref rid="R59" ref-type="bibr">59</xref>]. Additionally, the EEA1-FYVE domain can bind both PtdIns(3)<italic>P</italic> and PtdSer [<xref rid="R60" ref-type="bibr">60</xref>], again through distinct sites, suggesting that these probes will be enriched upon membranes containing both lipids, and highlighting the fact that phosphoinositide-binding domains, once considered monogamous, can actually contain multiple lipid-binding sites that might refine their localization across membranes differentially enriched in these lipids (<xref rid="F4" ref-type="fig">Figure 4c</xref>).</p>
+      </sec>
+      <sec id="S16">
+        <title>Coincidence detection through lipid and geometric cues</title>
+        <p id="P35">Coincidence detection need not arise solely through the recognition of dual protein–protein, or protein–lipid interactions: the recent identification of the BAR (Bin/ Amphiphysin/Rvs) domain as a membrane-binding domain able to sense membrane curvature [<xref rid="R61" ref-type="bibr">61</xref>] provides another example. BAR-domain-containing proteins often contain additional protein–lipid interaction domains, such as PH domains (in oligophrenins or centaurins) or PX domains (in sorting nexins). Endogenous sorting nexin-1 (SNX1) localizes to high-curvature membrane tubules emanating from endosomes. For this, SNX1 requires a functional PtdIns(3)<italic>P</italic>-binding PX domain and a functional curvature-sensing BAR domain [<xref rid="R62" ref-type="bibr">62</xref>]. Forced dimerization of the SNX1-PX domain did not significantly bring it to membranes [<xref rid="R63" ref-type="bibr">63</xref>], consistent with its low-affinity interaction with PtdIns(3)<italic>P in vitro</italic> [<xref rid="R64" ref-type="bibr">64</xref>], demonstrating that the SNX1-BAR domain functions as a membrane-binding domain within its own right and that membrane geometry can act as a localization cue (<xref rid="F4" ref-type="fig">Figure 4d</xref>).</p>
+        <p id="P36">Thus, detection of signals other than phosphoinositides appears to be a mechanism employed by a variety of phosphoinositide-binding proteins to both restrict their distribution across membranes and enhance the strength of their interaction with membranes.</p>
+      </sec>
+    </sec>
+    <sec id="S17">
+      <title>Regulating disassembly</title>
+      <p id="P37">If localization of phosphoinositide-binding proteins occurs through coincidence detection of phosphoinositide and non-phosphoinositide cues, then regulated abolition of a single cue might selectively delocalize these proteins. In many cases, localization requires coincident binding of both phosphoinositides and G-proteins. Thus, it can be imagined how the GTPase cycle could regulate the association and dissociation of phosphoinositide-binding proteins with membranes. Similarly, proteins recruited to dual-phosphoinositide and geometric cues could be selectively localized or delocalized through the alteration of membrane geometry, perhaps during vesicular budding or fusion, and proteins binding multiple lipids could be localized or delocalized through the metabolism of each lipid. Thus, employing coincidence detection might allow for more than just restricted localization of proteins: it might also allow for regulated disassembly of protein complexes at membranes.</p>
+    </sec>
+    <sec id="S18">
+      <title>Do we really know where phosphoinositides are?</title>
+      <p id="P38">The concept of coincidence detection raises a rather troubling question: if the localization of phosphoinositide-binding domains is determined by cues other than phosphoinositides, how accurately can they be used as reporters for these lipids [<xref rid="R65" ref-type="bibr">65</xref>]? For example, the Golgi localization of probes such as FAPP1 and OSBP is as dependent upon Arf1 as it is on PtdIns(4)<italic>P</italic>; hence PtdIns(4)<italic>P</italic> at other membranes will be invisible to these probes. While the Golgi/plasma membrane localization of Osh1p-PH and Osh2p-PH described depends upon PtdIns 4-kinases present upon these membranes [<xref rid="R54" ref-type="bibr">54</xref>], these PH domains actually bind a range of phosphoinositides <italic>in vitro</italic> [<xref rid="R44" ref-type="bibr">44</xref>] rather than being specific for PtdIns(4)<italic>P</italic>, suggesting that these probes might not report exclusively the presence of PtdIns(4)<italic>P</italic>. EM determination of PtdIns(4,5)<italic>P</italic><sub>2</sub> localization has demonstrated that significant pools of PtdIns(4,5)<italic>P</italic><sub>2</sub> exist upon Golgi and endosome membranes [<xref rid="R15" ref-type="bibr">15</xref>] that are not recognized by this probe in living cells [<xref rid="R9" ref-type="bibr">9</xref>]. In this light, data describing Double FYVE-containing protein-1, a PtdIns(3)<italic>P</italic>-binding protein that localizes to the Golgi [<xref rid="R66" ref-type="bibr">66</xref>], the presence of PtdIns(3)<italic>P</italic> at the plasma membrane [<xref rid="R67" ref-type="bibr">67</xref>] or the ER localization of PtdIns(3,4,5)<italic>P</italic><sub>3</sub> [<xref rid="R68" ref-type="bibr">68</xref>] lead us to question whether the tools we currently use to detect phosphoinositides might only ‘see’ a restricted population of these lipids and that phosphoinositides might be more widely distributed than previously thought.</p>
+    </sec>
+    <sec id="S19">
+      <title>Intermolecular coincidence recognition</title>
+      <p id="P39">Finally, it has emerged that ‘coincidence’ detection might occur at stages other than interactions with membranes. Screening for low-homology PH-domain fragments, Snyder and colleagues recently demonstrated the existence of intermolecular-PH domains: PH domains formed upon the interaction of two proteins containing half-PH domains. The interaction between PLCγ1 and the TrpC3 Ca<sup>2+</sup> channel generates a functional PtdIns(4,5)<italic>P</italic><sub>2</sub>-binding PH domain, retaining TrpC3 at the plasma membrane (<xref rid="F5" ref-type="fig">Figure 5</xref>) [<xref rid="R69" ref-type="bibr">69</xref>]. These data raise the exciting possibility that many more phosphoinositide-binding domains than originally thought might exist, owing to the fact that they are formed only upon coincident interaction between two proteins, and are thus undetectable by conventional search algorithms. Future efforts ought to examine whether there exist split-ENTH, split-FYVE or split-PX domains as well as the split-PH domains described above. Thus, as well as enhancing the avidity of interaction, protein oligomerization might also enhance binding strength by creating entirely new lipid-binding domains.</p>
+    </sec>
+    <sec id="S20">
+      <title>Concluding remarks</title>
+      <p id="P40">Thus, while phosphoinositides commonly act as recruitment signals for peripheral membrane proteins, it is becoming clear that additional interactions, other than recognition of the phosphoinositide species, can restrict the localization of phosphoinositide-binding proteins upon cellular membranes. Future work should more fully characterize the micro-localization of both phosphoinositides and phosphoinositide-binding proteins and provide insight into the physiological role that this compartmentalization might bring.</p>
+    </sec>
+  </body>
+  <back>
+    <sec id="S22" sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="F1" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Phosphoinositide species. Phosphatidylinositol (PtdIns) consists of a D-<italic>myo</italic>-inositol 1-phosphate headgroup attached, almost exclusively, to 1-stearoyl, 2-arachanonyl, 3-phosphoglycerol as depicted. A variety of phosphoinositide kinases and phosphatases act to generate various phosphorylated derivatives, as indicated.</p>
+        </caption>
+        <graphic xlink:href="nihms13801f1"/>
+      </fig>
+      <fig id="F2" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Phosphoinositide-binding domains. Structural examples of modular phosphoinositide-binding domains in complex with phosphoinositide-headgroup ligands and oriented such that the membrane interaction surface is top-most. Alpha-helices rendered in blue, beta-sheets in red. <bold>(a)</bold> Grp1 PH domain in complex with Ins(1,3,4,5)<italic>P</italic><sub>4</sub> [<xref rid="R70" ref-type="bibr">70</xref>]. <bold>(b)</bold> p40<sup>phox</sup> PX domain in complex with di-C<sub>4</sub>-PtdIns(3)<italic>P</italic> [<xref rid="R71" ref-type="bibr">71</xref>]. <bold>(c)</bold> Homodimeric EEA1 FYVE-domain (truncated to residues 1335–1411) in complex with Ins(1,3) <italic>P</italic>2. Green spheres represent Zn<sup>2+</sup> ions [<xref rid="R72" ref-type="bibr">72</xref>]. <bold>(d)</bold> Epsin-1 ENTH-domain in complex with Ins(1,4,5)<italic>P</italic><sub>3</sub> [<xref rid="R73" ref-type="bibr">73</xref>]. Structures were manipulated in Deepview 3.7 and rendered using POV-ray 3.6.</p>
+        </caption>
+        <graphic xlink:href="nihms13801f2"/>
+      </fig>
+      <fig id="F3" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Cartoon depicting intracellular membranes in the endocytic and biosynthetic pathways and their hypothesized phosphoinositide content. These organelles control the trafficking of cargo to a variety of subcellular localizations. Organelle names given in type, trafficking pathways given by letters. A, internalization from the plasma membrane; B, degradative sorting to the lysosome; C, recycling from endosomes to the plasma membrane; D, retrieval of cargo from endosomes back to the <italic>trans</italic>-Golgi network (TGN); E, delivery of cargo from the TGN to endosomes; F, secretion of cargo from the TGN to the plasma membrane.</p>
+        </caption>
+        <graphic xlink:href="nihms13801f3"/>
+      </fig>
+      <fig id="F4" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Coincidence detection to restrict localization. It is predicted that the following mechanisms will contribute towards the restricted localization of phosphoinositide-binding proteins across membrane. <bold>(a)</bold> Detection of phosphoinositides and small monomeric GTPases. Exemplified by the Arf1 and PtdIns(4)<italic>P</italic>-dependent localization of FAPP1 to the TGN. <bold>(b)</bold> Detection of phosphoinositides and cargo. Exemplified by the cargo and PtdIns(4,5)<italic>P</italic><sub>2</sub>-dependent localization of the adaptor protein AP-2 complex to the plasma membrane. <bold>(c)</bold> Detection of phosphoinositides and other membrane lipids. Exemplified by the hypothetical PtdIns(3,4)<italic>P</italic><sub>2</sub>- and PtdOH-dependent localization of p47<sup>phox</sup>. <bold>(d)</bold> Detection of phosphoinositides and geometric cues. Exemplified by the 3′-phosphoinositide and curvature-dependent localization of SNX1 to endosomes.</p>
+        </caption>
+        <graphic xlink:href="nihms13801f4"/>
+      </fig>
+      <fig id="F5" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Intermolecular coincidence detection. Oligomerization of PLCγ1 and the TrpC3 Ca<sup>2+</sup> channel creates a PtdIns(4,5)<italic>P</italic><sub>2</sub>-binding PH domain from two half-PH domains.</p>
+        </caption>
+        <graphic xlink:href="nihms13801f5"/>
+      </fig>
+    </sec>
+    <ack id="S23">
+      <p>We thank members of the Cullen laboratory for critical reading of the manuscript and for helpful discussion. J.C. is funded by a grant from Diabetes UK; work in the Cullen laboratory is supported by grants from the Biotechnology and Biological Sciences Research Council, the Medical Research Council and the Wellcome Trust.</p>
+    </ack>
+    <ref-list>
+      <ref id="R1">
+        <label>1</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cullen</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>Modular phosphoinositide-binding domains –their role in signalling and membrane trafficking</article-title>
+          <source>Curr Biol</source>
+          <volume>11</volume>
+          <fpage>R882</fpage>
+          <lpage>R893</lpage>
+          <pub-id pub-id-type="pmid">11696348</pub-id>
+        </citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lemmon</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Phosphoinositide recognition domains</article-title>
+          <source>Traffic</source>
+          <volume>4</volume>
+          <fpage>201</fpage>
+          <lpage>213</lpage>
+          <pub-id pub-id-type="pmid">12694559</pub-id>
+        </citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balla</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Inositol-lipid binding motifs: signal integrators through protein–lipid and protein–protein interactions</article-title>
+          <source>J Cell Sci</source>
+          <volume>118</volume>
+          <fpage>2093</fpage>
+          <lpage>2104</lpage>
+          <pub-id pub-id-type="pmid">15890985</pub-id>
+        </citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roth</surname>
+              <given-names>MG</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Phosphoinositides in constitutive membrane traffic</article-title>
+          <source>Physiol Rev</source>
+          <volume>84</volume>
+          <fpage>699</fpage>
+          <lpage>730</lpage>
+          <pub-id pub-id-type="pmid">15269334</pub-id>
+        </citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1998</year>
+          <article-title>A lipid associated with the antiphospholipid syndrome regulates endosome structure and function</article-title>
+          <source>Nature</source>
+          <volume>392</volume>
+          <fpage>193</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="pmid">9515966</pub-id>
+        </citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stephens</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>Phosphoinositide 3-kinases: regulation by cell-surface receptors and function of 3-phosphorylated lipids</article-title>
+          <source>Biology of Phosphoinositides</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Cockcroft</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <fpage>32</fpage>
+          <lpage>108</lpage>
+          <publisher-name>Oxford University Press</publisher-name>
+        </citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Matteis</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Godi</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>PI-loting membrane traffic</article-title>
+          <source>Nat Cell Biol</source>
+          <volume>6</volume>
+          <fpage>487</fpage>
+          <lpage>492</lpage>
+          <pub-id pub-id-type="pmid">15170460</pub-id>
+        </citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klein</surname>
+              <given-names>DE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1998</year>
+          <article-title>The pleckstrin homology domains of dynamin isoforms require oligomerization for high affinity phosphoinositide-binding</article-title>
+          <source>J Biol Chem</source>
+          <volume>273</volume>
+          <fpage>27725</fpage>
+          <lpage>27733</lpage>
+          <pub-id pub-id-type="pmid">9765310</pub-id>
+        </citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stauffer</surname>
+              <given-names>TP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1998</year>
+          <article-title>Receptor-induced transient reduction in plasma membrane PtdIns(4,5)P<sub>2</sub> concentration monitored in living cells</article-title>
+          <source>Curr Biol</source>
+          <volume>8</volume>
+          <fpage>343</fpage>
+          <lpage>346</lpage>
+          <pub-id pub-id-type="pmid">9512420</pub-id>
+        </citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Irvine</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Inositol lipids: to PHix or not to PHix?</article-title>
+          <source>Curr Biol</source>
+          <volume>14</volume>
+          <fpage>R308</fpage>
+          <lpage>R310</lpage>
+          <pub-id pub-id-type="pmid">15084300</pub-id>
+        </citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Phosphatidylinositol-4,5-bisphosphate-rich plasma membrane patches organize active zones of endocytosis and ruffling in cultured adipocytes</article-title>
+          <source>Mol Cell Biol</source>
+          <volume>24</volume>
+          <fpage>9102</fpage>
+          <lpage>9123</lpage>
+          <pub-id pub-id-type="pmid">15456883</pub-id>
+        </citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Rheenen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Jalink</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Agonist-induced PIP(2) hydrolysis inhibits cortical actin dynamics: regulation at a global but not at a micrometer scale</article-title>
+          <source>Mol Biol Cell</source>
+          <volume>13</volume>
+          <fpage>3257</fpage>
+          <lpage>3267</lpage>
+          <pub-id pub-id-type="pmid">12221130</pub-id>
+        </citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aoyagi</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2005</year>
+          <article-title>The activation of exocytotic sites by the formation of phosphatidylinositol-4,5-bisphosphate microdomains at syntaxin clusters</article-title>
+          <source>J Biol Chem</source>
+          <volume>280</volume>
+          <fpage>17346</fpage>
+          <lpage>17352</lpage>
+          <pub-id pub-id-type="pmid">15741173</pub-id>
+        </citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laux</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>GAP43, MARCKS, and CAP23 modulate PI(4,5) P(2) at plasmalemmal rafts, and regulate cell cortex actin dynamics through a common mechanism</article-title>
+          <source>J Cell Biol</source>
+          <volume>149</volume>
+          <fpage>1455</fpage>
+          <lpage>1472</lpage>
+          <pub-id pub-id-type="pmid">10871285</pub-id>
+        </citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watt</surname>
+              <given-names>SA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>Subcellular localization of phosphatidylinositol 4,5-bisphosphate using the pleckstrin homology domain of phospholipase C delta1</article-title>
+          <source>Biochem J</source>
+          <volume>363</volume>
+          <fpage>657</fpage>
+          <lpage>666</lpage>
+          <pub-id pub-id-type="pmid">11964166</pub-id>
+        </citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Honda</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1999</year>
+          <article-title>Phosphatidylinositol 4-phosphate 5-kinase alpha is a downstream effector of the small G protein ARF6 in membrane ruffle formation</article-title>
+          <source>Cell</source>
+          <volume>99</volume>
+          <fpage>521</fpage>
+          <lpage>532</lpage>
+          <pub-id pub-id-type="pmid">10589680</pub-id>
+        </citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tall</surname>
+              <given-names>EG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>Dynamics of phosphatidylinositol 4,5-bisphosphate in actin-rich structures</article-title>
+          <source>Curr Biol</source>
+          <volume>10</volume>
+          <fpage>743</fpage>
+          <lpage>746</lpage>
+          <pub-id pub-id-type="pmid">10873804</pub-id>
+        </citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin</surname>
+              <given-names>TF</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>PI(4,5)P(2) regulation of surface membrane traffic</article-title>
+          <source>Curr Opin Cell Biol</source>
+          <volume>13</volume>
+          <fpage>493</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="pmid">11454457</pub-id>
+        </citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Golub</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Caroni</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>PI(4,5)P<sub>2</sub>-dependent microdomain assemblies capture microtubules to promote and control leading edge motility</article-title>
+          <source>J Cell Biol</source>
+          <volume>169</volume>
+          <fpage>151</fpage>
+          <lpage>165</lpage>
+          <pub-id pub-id-type="pmid">15809307</pub-id>
+        </citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Papayannopoulos</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2005</year>
+          <article-title>A polybasic motif allows N-WASP to act as a sensor of PIP(2) density</article-title>
+          <source>Mol Cell</source>
+          <volume>17</volume>
+          <fpage>181</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="pmid">15664188</pub-id>
+        </citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maxfield</surname>
+              <given-names>FR</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Plasma membrane microdomains</article-title>
+          <source>Curr Opin Cell Biol</source>
+          <volume>14</volume>
+          <fpage>483</fpage>
+          <lpage>487</lpage>
+          <pub-id pub-id-type="pmid">12383800</pub-id>
+        </citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mukherjee</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Maxfield</surname>
+              <given-names>FR</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Membrane domains</article-title>
+          <source>Annu Rev Cell Dev Biol</source>
+          <volume>20</volume>
+          <fpage>839</fpage>
+          <lpage>866</lpage>
+          <pub-id pub-id-type="pmid">15473862</pub-id>
+        </citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gambhir</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Electrostatic sequestration of PIP2 on phospholipid membranes by basic/aromatic regions of proteins</article-title>
+          <source>Biophys J</source>
+          <volume>86</volume>
+          <fpage>2188</fpage>
+          <lpage>2207</lpage>
+          <pub-id pub-id-type="pmid">15041659</pub-id>
+        </citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caroni</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>New EMBO members’ review: actin cytoskeleton regulation through modulation of PI(4,5)P(2) rafts</article-title>
+          <source>EMBO J</source>
+          <volume>20</volume>
+          <fpage>4332</fpage>
+          <lpage>4336</lpage>
+          <pub-id pub-id-type="pmid">11500359</pub-id>
+        </citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Rheenen</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2005</year>
+          <article-title>PIP(2) signaling in lipid domains: a critical re-evaluation</article-title>
+          <source>EMBO J</source>
+          <volume>24</volume>
+          <fpage>1664</fpage>
+          <lpage>1673</lpage>
+          <pub-id pub-id-type="pmid">15861130</pub-id>
+        </citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gillooly</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>Localization of phosphatidylinositol 3-phosphate in yeast and mammalian cells</article-title>
+          <source>EMBO J</source>
+          <volume>19</volume>
+          <fpage>4577</fpage>
+          <lpage>4588</lpage>
+          <pub-id pub-id-type="pmid">10970851</pub-id>
+        </citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gillooly</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Phosphatidylinositol 3-phosphate is found in microdomains of early endosomes</article-title>
+          <source>Histochem Cell Biol</source>
+          <volume>120</volume>
+          <fpage>445</fpage>
+          <lpage>453</lpage>
+          <pub-id pub-id-type="pmid">14618335</pub-id>
+        </citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Christoforidis</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1999</year>
+          <article-title>Phosphatidylinositol-3-OH kinases are Rab5 effectors</article-title>
+          <source>Nat Cell Biol</source>
+          <volume>1</volume>
+          <fpage>249</fpage>
+          <lpage>252</lpage>
+          <pub-id pub-id-type="pmid">10559924</pub-id>
+        </citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lawe</surname>
+              <given-names>DC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>The FYVE domain of early endosome antigen 1 is required for both phosphatidylinositol 3-phosphate and Rab5 binding. Critical role of this dual interaction for endosomal localization</article-title>
+          <source>J Biol Chem</source>
+          <volume>275</volume>
+          <fpage>3699</fpage>
+          <lpage>3705</lpage>
+          <pub-id pub-id-type="pmid">10652369</pub-id>
+        </citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zerial</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>McBride</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Rab proteins as membrane organizers</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <volume>2</volume>
+          <fpage>107</fpage>
+          <lpage>117</lpage>
+          <pub-id pub-id-type="pmid">11252952</pub-id>
+        </citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lippe</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>Functional synergy between Rab5 effector Rabaptin-5 and exchange factor Rabex-5 when physically associated in a complex</article-title>
+          <source>Mol Biol Cell</source>
+          <volume>12</volume>
+          <fpage>2219</fpage>
+          <lpage>2228</lpage>
+          <pub-id pub-id-type="pmid">11452015</pub-id>
+        </citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Divecha</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>Interaction of the type Ialpha PIPkinase with phospholipase D: a role for the local generation of phosphatidylinositol 4,5-bisphosphate in the regulation of PLD2 activity</article-title>
+          <source>EMBO J</source>
+          <volume>19</volume>
+          <fpage>5440</fpage>
+          <lpage>5449</lpage>
+          <pub-id pub-id-type="pmid">11032811</pub-id>
+        </citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stokoe</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>PTEN</article-title>
+          <source>Curr Biol</source>
+          <volume>11</volume>
+          <fpage>R502</fpage>
+          <pub-id pub-id-type="pmid">11470419</pub-id>
+        </citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Haastert</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Devreotes</surname>
+              <given-names>PN</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Chemotaxis: signalling the way forward</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <volume>5</volume>
+          <fpage>626</fpage>
+          <lpage>634</lpage>
+          <pub-id pub-id-type="pmid">15366706</pub-id>
+        </citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Campbell</surname>
+              <given-names>RB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Allosteric activation of PTEN phosphatase by phosphatidylinositol 4,5-bisphosphate</article-title>
+          <source>J Biol Chem</source>
+          <volume>278</volume>
+          <fpage>33617</fpage>
+          <lpage>33620</lpage>
+          <pub-id pub-id-type="pmid">12857747</pub-id>
+        </citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schaletzky</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Phosphatidylinositol-5-phosphate activation and conserved substrate specificity of the myotubularin phosphatidylinositol 3-phosphatases</article-title>
+          <source>Curr Biol</source>
+          <volume>13</volume>
+          <fpage>504</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="pmid">12646134</pub-id>
+        </citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merino-Trigo</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Sorting nexin 5 is localized to a subdomain of the early endosomes and is recruited to the plasma membrane following EGF stimulation</article-title>
+          <source>J Cell Sci</source>
+          <volume>117</volume>
+          <fpage>6413</fpage>
+          <lpage>6422</lpage>
+          <pub-id pub-id-type="pmid">15561769</pub-id>
+        </citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watt</surname>
+              <given-names>SA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Detection of novel intracellular agonist responsive pools of phosphatidylinositol 3,4-bisphosphate using the TAPP1 pleckstrin homology domain in immunoelectron microscopy</article-title>
+          <source>Biochem J</source>
+          <volume>377</volume>
+          <fpage>653</fpage>
+          <lpage>663</lpage>
+          <pub-id pub-id-type="pmid">14604433</pub-id>
+        </citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sbrissa</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>Phosphatidylinositol 3-phosphate-interacting domains in PIKfyve. Binding specificity and role in PIKfyve Endomembrane localization</article-title>
+          <source>J Biol Chem</source>
+          <volume>277</volume>
+          <fpage>6073</fpage>
+          <lpage>6079</lpage>
+          <pub-id pub-id-type="pmid">11706043</pub-id>
+        </citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dove</surname>
+              <given-names>SK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Svp1p defines a family of phosphatidylinositol 3,5-bisphosphate effectors</article-title>
+          <source>EMBO J</source>
+          <volume>23</volume>
+          <fpage>1922</fpage>
+          <lpage>1933</lpage>
+          <pub-id pub-id-type="pmid">15103325</pub-id>
+        </citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Friant</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Ent3p Is a PtdIns(3,5)P2 effector required for protein sorting to the multivesicular body</article-title>
+          <source>Dev Cell</source>
+          <volume>5</volume>
+          <fpage>499</fpage>
+          <lpage>511</lpage>
+          <pub-id pub-id-type="pmid">12967568</pub-id>
+        </citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eugster</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Ent5p is required with Ent3p and Vps27p for ubiquitin-dependent protein sorting into the multivesicular body</article-title>
+          <source>Mol Biol Cell</source>
+          <volume>15</volume>
+          <fpage>3031</fpage>
+          <lpage>3041</lpage>
+          <pub-id pub-id-type="pmid">15107463</pub-id>
+        </citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whitley</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Identification of mammalian Vps24p as an effector of phosphatidylinositol 3,5-bisphosphate-dependent endosome compartmentalization</article-title>
+          <source>J Biol Chem</source>
+          <volume>278</volume>
+          <fpage>38786</fpage>
+          <lpage>38795</lpage>
+          <pub-id pub-id-type="pmid">12878588</pub-id>
+        </citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>JW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Genome-wide analysis of membrane targeting by <italic>S. cerevisiae</italic> pleckstrin homology domains</article-title>
+          <source>Mol Cell</source>
+          <volume>13</volume>
+          <fpage>677</fpage>
+          <lpage>688</lpage>
+          <pub-id pub-id-type="pmid">15023338</pub-id>
+        </citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Lemmon</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>All phox homology (PX) domains from <italic>Saccharomyces cerevisiae</italic> specifically recognize phosphatidylinositol 3-phosphate</article-title>
+          <source>J Biol Chem</source>
+          <volume>276</volume>
+          <fpage>44179</fpage>
+          <lpage>44184</lpage>
+          <pub-id pub-id-type="pmid">11557775</pub-id>
+        </citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nice</surname>
+              <given-names>DC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>Cooperative binding of the cytoplasm to vacuole targeting pathway proteins, Cvt13 and Cvt20, to phosphatidylinositol 3-phosphate at the pre-autophagosomal structure is required for selective autophagy</article-title>
+          <source>J Biol Chem</source>
+          <volume>277</volume>
+          <fpage>30198</fpage>
+          <lpage>30207</lpage>
+          <pub-id pub-id-type="pmid">12048214</pub-id>
+        </citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Misra</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>Recognizing phosphatidylinositol 3-phosphate</article-title>
+          <source>Cell</source>
+          <volume>107</volume>
+          <fpage>559</fpage>
+          <lpage>562</lpage>
+          <pub-id pub-id-type="pmid">11733055</pub-id>
+        </citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raiborg</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>FYVE and coiled-coil domains determine the specific localisation of Hrs to early endosomes</article-title>
+          <source>J Cell Sci</source>
+          <volume>114</volume>
+          <fpage>2255</fpage>
+          <lpage>2263</lpage>
+          <pub-id pub-id-type="pmid">11493665</pub-id>
+        </citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Godi</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>FAPPs control Golgi-to-cell-surface membrane traffic by binding to ARF and PtdIns(4)P</article-title>
+          <source>Nat Cell Biol</source>
+          <volume>6</volume>
+          <fpage>393</fpage>
+          <lpage>404</lpage>
+          <pub-id pub-id-type="pmid">15107860</pub-id>
+        </citation>
+      </ref>
+      <ref id="R50">
+        <label>50</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levine</surname>
+              <given-names>TP</given-names>
+            </name>
+            <name>
+              <surname>Munro</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Targeting of Golgi-specific pleckstrin homology domains involves both PtdIns 4-kinase-dependent and -independent components</article-title>
+          <source>Curr Biol</source>
+          <volume>12</volume>
+          <fpage>695</fpage>
+          <lpage>704</lpage>
+          <pub-id pub-id-type="pmid">12007412</pub-id>
+        </citation>
+      </ref>
+      <ref id="R51">
+        <label>51</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>YJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Phosphatidylinositol 4 phosphate regulates targeting of clathrin adaptor AP-1 complexes to the Golgi</article-title>
+          <source>Cell</source>
+          <volume>114</volume>
+          <fpage>299</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="pmid">12914695</pub-id>
+        </citation>
+      </ref>
+      <ref id="R52">
+        <label>52</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stamnes</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Rothman</surname>
+              <given-names>JE</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>The binding of AP-1 clathrin adaptor particles to Golgi membranes requires ADP-ribosylation factor, a small GTP-binding protein</article-title>
+          <source>Cell</source>
+          <volume>73</volume>
+          <fpage>999</fpage>
+          <lpage>1005</lpage>
+          <pub-id pub-id-type="pmid">8500185</pub-id>
+        </citation>
+      </ref>
+      <ref id="R53">
+        <label>53</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Traub</surname>
+              <given-names>LM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1993</year>
+          <article-title>Biochemical dissection of AP-1 recruitment onto Golgi membranes</article-title>
+          <source>J Cell Biol</source>
+          <volume>123</volume>
+          <fpage>561</fpage>
+          <lpage>573</lpage>
+          <pub-id pub-id-type="pmid">8227126</pub-id>
+        </citation>
+      </ref>
+      <ref id="R54">
+        <label>54</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roy</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Levine</surname>
+              <given-names>TP</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Multiple pools of phosphatidylinositol 4-phosphate detected using the pleckstrin homology domain of Osh2p</article-title>
+          <source>J Biol Chem</source>
+          <volume>279</volume>
+          <fpage>44683</fpage>
+          <lpage>44689</lpage>
+          <pub-id pub-id-type="pmid">15271978</pub-id>
+        </citation>
+      </ref>
+      <ref id="R55">
+        <label>55</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wild</surname>
+              <given-names>AC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>The p21-activated protein kinase-related kinase Cla4 is a coincidence detector of signaling by Cdc42 and phosphatidylinositol 4-phosphate</article-title>
+          <source>J Biol Chem</source>
+          <volume>279</volume>
+          <fpage>17101</fpage>
+          <lpage>17110</lpage>
+          <pub-id pub-id-type="pmid">14766750</pub-id>
+        </citation>
+      </ref>
+      <ref id="R56">
+        <label>56</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robinson</surname>
+              <given-names>MS</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Adaptable adaptors for coated vesicles</article-title>
+          <source>Trends Cell Biol</source>
+          <volume>14</volume>
+          <fpage>167</fpage>
+          <lpage>174</lpage>
+          <pub-id pub-id-type="pmid">15066634</pub-id>
+        </citation>
+      </ref>
+      <ref id="R57">
+        <label>57</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Honing</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2005</year>
+          <article-title>Phosphatidylinositol-(4,5)-bisphosphate regulates sorting signal recognition by the clathrin-associated adaptor complex AP2</article-title>
+          <source>Mol Cell</source>
+          <volume>18</volume>
+          <fpage>519</fpage>
+          <lpage>531</lpage>
+          <pub-id pub-id-type="pmid">15916959</pub-id>
+        </citation>
+      </ref>
+      <ref id="R58">
+        <label>58</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yun</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Crystal structures of the Dab homology domains of mouse disabled 1 and 2</article-title>
+          <source>J Biol Chem</source>
+          <volume>278</volume>
+          <fpage>36572</fpage>
+          <lpage>36581</lpage>
+          <pub-id pub-id-type="pmid">12826668</pub-id>
+        </citation>
+      </ref>
+      <ref id="R59">
+        <label>59</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karathanassis</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>Binding of the PX domain of p47(phox) to phosphatidylinositol 3,4-bisphosphate and phosphatidic acid is masked by an intramolecular interaction</article-title>
+          <source>EMBO J</source>
+          <volume>21</volume>
+          <fpage>5057</fpage>
+          <lpage>5068</lpage>
+          <pub-id pub-id-type="pmid">12356722</pub-id>
+        </citation>
+      </ref>
+      <ref id="R60">
+        <label>60</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kutateladze</surname>
+              <given-names>TG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Multivalent mechanism of membrane insertion by the FYVE domain</article-title>
+          <source>J Biol Chem</source>
+          <volume>279</volume>
+          <fpage>3050</fpage>
+          <lpage>3057</lpage>
+          <pub-id pub-id-type="pmid">14578346</pub-id>
+        </citation>
+      </ref>
+      <ref id="R61">
+        <label>61</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peter</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>BAR domains as sensors of membrane curvature: the amphiphysin BAR structure</article-title>
+          <source>Science</source>
+          <volume>303</volume>
+          <fpage>495</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="pmid">14645856</pub-id>
+        </citation>
+      </ref>
+      <ref id="R62">
+        <label>62</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carlton</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Sorting nexin-1 mediates tubular endosome-to-TGN transport through coincidence sensing of high- curvature membranes and 3-phosphoinositides</article-title>
+          <source>Curr Biol</source>
+          <volume>14</volume>
+          <fpage>1791</fpage>
+          <lpage>1800</lpage>
+          <pub-id pub-id-type="pmid">15498486</pub-id>
+        </citation>
+      </ref>
+      <ref id="R63">
+        <label>63</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhong</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2005</year>
+          <article-title>Determinants of the endosomal localization of sorting Nexin 1</article-title>
+          <source>Mol Biol Cell</source>
+          <volume>16</volume>
+          <fpage>2049</fpage>
+          <lpage>2057</lpage>
+          <pub-id pub-id-type="pmid">15673616</pub-id>
+        </citation>
+      </ref>
+      <ref id="R64">
+        <label>64</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cozier</surname>
+              <given-names>GE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>The phox homology (PX) domain-dependent, 3-phosphoinositide-mediated association of sorting nexin-1 with an early sorting endosomal compartment is required for its ability to regulate epidermal growth factor receptor degradation</article-title>
+          <source>J Biol Chem</source>
+          <volume>277</volume>
+          <fpage>48730</fpage>
+          <lpage>48736</lpage>
+          <pub-id pub-id-type="pmid">12198132</pub-id>
+        </citation>
+      </ref>
+      <ref id="R65">
+        <label>65</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balla</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>How accurately can we image inositol lipids in living cells?</article-title>
+          <source>Trends Pharmacol Sci</source>
+          <volume>21</volume>
+          <fpage>238</fpage>
+          <lpage>241</lpage>
+          <pub-id pub-id-type="pmid">10871889</pub-id>
+        </citation>
+      </ref>
+      <ref id="R66">
+        <label>66</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ridley</surname>
+              <given-names>SH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>FENS-1 and DFCP1 are FYVE domain-containing proteins with distinct functions in the endosomal and Golgi compartments</article-title>
+          <source>J Cell Sci</source>
+          <volume>114</volume>
+          <fpage>3991</fpage>
+          <lpage>4000</lpage>
+          <pub-id pub-id-type="pmid">11739631</pub-id>
+        </citation>
+      </ref>
+      <ref id="R67">
+        <label>67</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maffucci</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Insulin induces phosphatidylinositol-3-phosphate formation through TC10 activation</article-title>
+          <source>EMBO J</source>
+          <volume>22</volume>
+          <fpage>4178</fpage>
+          <lpage>4189</lpage>
+          <pub-id pub-id-type="pmid">12912916</pub-id>
+        </citation>
+      </ref>
+      <ref id="R68">
+        <label>68</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sato</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Production of PtdInsP<sub>3</sub> at endomembranes is triggered by receptor endocytosis</article-title>
+          <source>Nat Cell Biol</source>
+          <volume>5</volume>
+          <fpage>1016</fpage>
+          <lpage>1022</lpage>
+          <pub-id pub-id-type="pmid">14528311</pub-id>
+        </citation>
+      </ref>
+      <ref id="R69">
+        <label>69</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Rossum</surname>
+              <given-names>DB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2005</year>
+          <article-title>Phospholipase Cgamma1 controls surface expression of TRPC3 through an intermolecular PH domain</article-title>
+          <source>Nature</source>
+          <volume>434</volume>
+          <fpage>99</fpage>
+          <lpage>104</lpage>
+          <pub-id pub-id-type="pmid">15744307</pub-id>
+        </citation>
+      </ref>
+      <ref id="R70">
+        <label>70</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lietzke</surname>
+              <given-names>SE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>Structural basis of 3-phosphoinositide recognition by pleckstrin homology domains</article-title>
+          <source>Mol Cell</source>
+          <volume>6</volume>
+          <fpage>385</fpage>
+          <lpage>394</lpage>
+          <pub-id pub-id-type="pmid">10983985</pub-id>
+        </citation>
+      </ref>
+      <ref id="R71">
+        <label>71</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bravo</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>The crystal structure of the PX domain from p40(phox) bound to phosphatidylinositol 3-phosphate</article-title>
+          <source>Mol Cell</source>
+          <volume>8</volume>
+          <fpage>829</fpage>
+          <lpage>839</lpage>
+          <pub-id pub-id-type="pmid">11684018</pub-id>
+        </citation>
+      </ref>
+      <ref id="R72">
+        <label>72</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dumas</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>Multivalent endosome targeting by homodimeric EEA1</article-title>
+          <source>Mol Cell</source>
+          <volume>8</volume>
+          <fpage>947</fpage>
+          <lpage>958</lpage>
+          <pub-id pub-id-type="pmid">11741531</pub-id>
+        </citation>
+      </ref>
+      <ref id="R73">
+        <label>73</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ford</surname>
+              <given-names>MG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>Curvature of clathrin-coated pits driven by epsin</article-title>
+          <source>Nature</source>
+          <volume>419</volume>
+          <fpage>361</fpage>
+          <lpage>366</lpage>
+          <pub-id pub-id-type="pmid">12353027</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <glossary>
+      <title>Glossary</title>
+      <gloss-group>
+        <def-list>
+          <def-item>
+            <term id="G1">Adaptor protein</term>
+            <def>
+              <p>Proteins or protein complexes that link cargo to vesicular carriers; for example the AP-1, -2, -3 and -4 adaptor protein complexes.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G2">Apg14p</term>
+            <def>
+              <p>A component of the yeast autophagic PI 3-kinase complex that localizes to the autophagosome.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G3">Arf1</term>
+            <def>
+              <p>ADP-ribosylation factor-1. A small monomeric GTPase that controls trafficking decisions at the Golgi and at endosomes.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G4">MVB</term>
+            <def>
+              <p>Multivesicular body. Endosomes containing internal vesicles upon which cargo that is sorted for degradation becomes incorporated.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G5">NADPH oxidase</term>
+            <def>
+              <p>A superoxide-generating complex found in the plasma membrane of phagocytes with a microbiocidal function.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G6">PI 3-kinase</term>
+            <def>
+              <p>Phosphoinositide 3-kinase. A phosphoinositide kinase that phosphorylates phosphoinositides at the 3-position.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G7">Rab5</term>
+            <def>
+              <p>A small GTPase of the Rab family that localizes to endosomes, recruits a number of effectors to endosomes and regulates a variety of endocytic sorting processes.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G8">Rabaptin5</term>
+            <def>
+              <p>A Rab5 effector that localizes to endosomes and controls Rab5-dependent endosomal fusion.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G9">Rabex5</term>
+            <def>
+              <p>A Rab5 GDP–GTP exchange factor (GEF) that activates Rab5 by promoting GTP-exchange upon it.</p>
+            </def>
+          </def-item>
+          <def-item>
+            <term id="G10">Rho-family GTPases</term>
+            <def>
+              <p>A family of small GTPases including Rho, Rac and Cdc42 that regulate actin dynamics.</p>
+            </def>
+          </def-item>
+        </def-list>
+      </gloss-group>
+    </glossary>
+  </back>
+</article>

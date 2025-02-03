@@ -1,0 +1,322 @@
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Manual" Owner="NLM">
+      <PMID Version="1">15300334</PMID>
+      <DateCompleted>
+        <Year>2004</Year>
+        <Month>12</Month>
+        <Day>07</Day>
+      </DateCompleted>
+      <DateRevised>
+        <Year>2018</Year>
+        <Month>11</Month>
+        <Day>13</Day>
+      </DateRevised>
+      <Article PubModel="Print">
+        <Journal>
+          <ISSN IssnType="Print">0003-2417</ISSN>
+          <JournalIssue CitedMedium="Print">
+            <Volume>53</Volume>
+            <Issue>10</Issue>
+            <PubDate>
+              <Year>2004</Year>
+              <Month>Oct</Month>
+            </PubDate>
+          </JournalIssue>
+          <Title>Der Anaesthesist</Title>
+          <ISOAbbreviation>Anaesthesist</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>[Clinical findings in patients with chronic complex regional pain syndrome].</ArticleTitle>
+        <Pagination>
+          <MedlinePgn>965-77</MedlinePgn>
+        </Pagination>
+        <Abstract>
+          <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">What are the clinical findings in patients with chronic complex regional pain syndrome (CRPS)?</AbstractText>
+          <AbstractText Label="METHODS" NlmCategory="METHODS">Bedside examination was performed in 40 patients with CRPS and a mean illness duration of 43 months. To evaluate motor and autonomic disturbances, rating scales were developed and applied. Quantitative sensory testing (QST) was conducted in 24 patients.</AbstractText>
+          <AbstractText Label="RESULTS" NlmCategory="RESULTS">Clinical examination revealed sensory abnormalities in 93% of patients examined (in 56% limited to the affected limb, in 7% in the upper quadrant of the body, in 30% hemisensory impairment of the ipsilateral body side), and 60% of the patients suffered from mechanical allodynia in the affected limb. Patients with generalized sensory impairment had a significantly longer illness duration, pain intensity and significantly higher frequency of mechanical allodynia/hyperalgesia than patients with sensory deficits limited to the limb affected. In patients with generalized sensory abnormalities, QST revealed significant changes of cold, warm and touch thresholds on the ipsilateral compared to the contralateral body side. Mild/moderate motor abnormalities could be demonstrated in 45% of patients, tremor (50%), impaired joint movements, 45%, and 40% of patients revealed autonomic disturbances.</AbstractText>
+          <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">In chronic CRPS, among clinical symptoms and signs, pain and sensory impairment play a major role. Mechanical allodynia reveals the highest level of subjective disability among all symptoms. With respect to hemisensory impairment, functional disturbances of central pain processing in the nucleus ventralis posterior of the thalamus are postulated.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Rommel</LastName>
+            <ForeName>O</ForeName>
+            <Initials>O</Initials>
+            <AffiliationInfo>
+              <Affiliation>Neurologische Klinik und Poliklinik, BG-Kliniken Bergmannsheil, Ruhr Universität Bochum. O.Rommel@Rommel-Klinik.de</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Malin</LastName>
+            <ForeName>J P</ForeName>
+            <Initials>JP</Initials>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Jänig</LastName>
+            <ForeName>W</ForeName>
+            <Initials>W</Initials>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Zenz</LastName>
+            <ForeName>M</ForeName>
+            <Initials>M</Initials>
+          </Author>
+        </AuthorList>
+        <Language>ger</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016430">Clinical Trial</PublicationType>
+          <PublicationType UI="D004740">English Abstract</PublicationType>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <VernacularTitle>Klinische Auffälligkeiten bei Patienten mit chronischem komplexen regionalen Schmerzsyndrom (sympathische Reflexdystrophie/Kausalgie).</VernacularTitle>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>Germany</Country>
+        <MedlineTA>Anaesthesist</MedlineTA>
+        <NlmUniqueID>0370525</NlmUniqueID>
+        <ISSNLinking>0003-2417</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <MeshHeadingList>
+        <MeshHeading>
+          <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D003080" MajorTopicYN="N">Cold Temperature</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D020918" MajorTopicYN="N">Complex Regional Pain Syndromes</DescriptorName>
+          <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+          <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D005121" MajorTopicYN="N">Extremities</DescriptorName>
+          <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D007839" MajorTopicYN="N">Functional Laterality</DescriptorName>
+          <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006358" MajorTopicYN="N">Hot Temperature</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006930" MajorTopicYN="N">Hyperalgesia</DescriptorName>
+          <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+          <QualifierName UI="Q000209" MajorTopicYN="N">etiology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D009046" MajorTopicYN="N">Motor Neurons</DescriptorName>
+          <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D009460" MajorTopicYN="N">Neurologic Examination</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D010147" MajorTopicYN="N">Pain Measurement</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D010812" MajorTopicYN="N">Physical Stimulation</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D012677" MajorTopicYN="N">Sensation</DescriptorName>
+          <QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D020651" MajorTopicYN="N">Ventral Thalamic Nuclei</DescriptorName>
+          <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+        </MeshHeading>
+      </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2004</Year>
+          <Month>8</Month>
+          <Day>10</Day>
+          <Hour>5</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2004</Year>
+          <Month>12</Month>
+          <Day>16</Day>
+          <Hour>9</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2004</Year>
+          <Month>8</Month>
+          <Day>10</Day>
+          <Hour>5</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>ppublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">15300334</ArticleId>
+        <ArticleId IdType="doi">10.1007/s00101-004-0736-7</ArticleId>
+      </ArticleIdList>
+      <ReferenceList>
+        <Reference>
+          <Citation>Neurology. 2003 Aug 26;61(4):515-9</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">12939426</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Lancet. 1999 Nov 20;354(9192):1790-1</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">10577646</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Br Med J (Clin Res Ed). 1984 Jan 21;288(6412):173-6</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">6198018</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Neuroreport. 1991 Dec;2(12):747-50</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">1793816</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Anaesthesist. 1998 Jan;47(1):4-23</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">9530442</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Clin J Pain. 1998 Sep;14(3):216-26</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">9758071</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Pain. 1995 Oct;63(1):127-33</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">8577483</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Pain. 1997 Jan;69(1-2):49-54</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">9060012</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Brain. 1993 Aug;116 ( Pt 4):843-51</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">8353711</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Pain. 1999 Mar;80(1-2):95-101</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">10204721</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Lancet. 1993 Oct 23;342(8878):1012-6</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">8105263</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Pain. 1989 Jan;36(1):13-25</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">2919091</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Pain. 2002 Jul;98(1-2):19-26</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">12098613</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Schmerz. 2003 Jun;17(3):213-26</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">12789489</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Nervenarzt. 1999 Apr;70(4):335-41</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">10354996</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Clin J Pain. 1998 Sep;14(3):256-67</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">9758076</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Pain. 2001 Sep;93(3):279-93</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">11514087</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Nature. 1993 Feb 11;361(6412):533-6</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">8429906</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Pain. 1995 Oct;63(1):55-64</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">8577491</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Arch Neurol. 1999 May;56(5):613-20</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">10328258</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Arch Neurol. 1991 Dec;48(12):1247-52</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">1845027</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Neurology. 1990 Jan;40(1):57-61</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">2296383</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>Lancet. 2002 May 11;359(9318):1655-60</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">12020526</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <Reference>
+          <Citation>J Pain Symptom Manage. 1995 Jul;10(5):385-91</Citation>
+          <ArticleIdList>
+            <ArticleId IdType="pubmed">7673771</ArticleId>
+          </ArticleIdList>
+        </Reference>
+      </ReferenceList>
+    </PubmedData>
+  </PubmedArticle>
+</PubmedArticleSet>

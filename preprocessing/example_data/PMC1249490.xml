@@ -1,0 +1,2362 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">8211617</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">6714</journal-id>
+      <journal-id journal-id-type="nlm-ta">Prog Neuropsychopharmacol Biol Psychiatry</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Prog. Neuropsychopharmacol. Biol. Psychiatry</journal-id>
+      <journal-title-group>
+        <journal-title>Progress in neuro-psychopharmacology &amp; biological psychiatry</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0278-5846</issn>
+      <issn pub-type="epub">1878-4216</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">15950352</article-id>
+      <article-id pub-id-type="pmc">1249490</article-id>
+      <article-id pub-id-type="doi">10.1016/j.pnpbp.2005.03.020</article-id>
+      <article-id pub-id-type="manuscript">UKMS5296</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Pharmacogenetics in model systems: Defining a common mechanism of action for mood stabilisers</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Williams</surname>
+            <given-names>Robin S.B.</given-names>
+          </name>
+          <xref rid="FN1" ref-type="author-notes">*</xref>
+        </contrib>
+        <aff id="A1">Department of Biology and Wolfson Institute for Biomedical Research, University College London, Gower St., London WC1E 6BT, United Kingdom</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="FN1">* Tel.: +44 20 7679 7268; fax: +44 20 7979 7096. <italic>E-mail address:</italic><email>robin.williams@ucl.ac.uk</email>.</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>28</day>
+        <month>9</month>
+        <year>2005</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>7</month>
+        <year>2005</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>07</day>
+        <month>10</month>
+        <year>2005</year>
+      </pub-date>
+      <volume>29</volume>
+      <issue>6</issue>
+      <fpage>1029</fpage>
+      <lpage>1037</lpage>
+      <permissions>
+        <license>
+          <license-p>This file is available to download for the purposes of text mining, consistent with the principles of UK copyright law.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P1">Defining the underlying causes of psychiatric disorders has provided an ongoing and intractable problem. The analysis of the genetic basis of manic depression, in particular, has been impeded by the absence of a suitable model system and by the lack of candidate causative genes. One recent approach to overcome these problems has involved identifying those genes which control the sensitivity to anti-manic drugs in a model organism. Characterisation of the role of these genes and their encoded proteins in this model has allowed the analysis of their mammalian homologues to elucidate the therapeutic role of these drugs and the possible aetiology of manic depression. This approach has been used successfully with the cellular slime mould, <italic>Dictyostelium discoideum</italic>. This article introduces the use of model systems for pharmacogenetics research. It describes the identification of prolyl oligopeptidase in <italic>D. discoideum</italic> as a modulator of inositol phosphate signalling, and the subsequent identification of a common mechanism of action of three anti-manic drugs in mammalian neurons. The use of pharmacogenetics in model systems will provide a powerful tool for the ongoing analysis of both the treatment and cause of psychiatric disorders.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>
+          <italic>Dictyostelium discoideum</italic>
+        </kwd>
+        <kwd>Lithium</kwd>
+        <kwd>Manic depression</kwd>
+        <kwd>Model systems</kwd>
+        <kwd>Pharmacogenetics</kwd>
+        <kwd>Valproic acid</kwd>
+      </kwd-group>
+      <kwd-group>
+        <title>Abbreviations</title>
+        <kwd>cAMP, cyclic adenosine 3′,5′-phosphate</kwd>
+        <kwd>CBZ, carbamazepine</kwd>
+        <kwd>DAG, diacylglycerol</kwd>
+        <kwd>DpoA, <italic>Dictyostelium</italic> prolyl oligopeptidase</kwd>
+        <kwd>Gsk3/A, glycogen synthase kinase 3/A</kwd>
+        <kwd>IMPase, inositol monophosphatase</kwd>
+        <kwd>InsP<sub>3</sub>, inositol (1,4,5) trisphosphate</kwd>
+        <kwd>PIP<sub>2</sub>, phosphatidyl-inositol (4,5) bisphosphate</kwd>
+        <kwd>PLC, phospholipase C</kwd>
+        <kwd>PO, prolyl oligopeptidase</kwd>
+        <kwd>REMI, Restriction Enzyme Mediated Integration</kwd>
+        <kwd>VPA, valproic acid</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source country="United Kingdom">Wellcome Trust : </funding-source>
+          <award-id>065974 || WT</award-id>
+        </award-group>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="S1">
+      <title>1. Introduction</title>
+      <p id="P2">‘Manic depression’ or bipolar disorder occurs with a lifetime prevalence of 1.9% (ten <xref rid="R60" ref-type="bibr">Have et al., 2002</xref>). It severely impairs quality of life in most suffers and carries a 30- to 50-fold increased risk of suicide (<xref rid="R52" ref-type="bibr">Muller-Oerlinghausen, 2001</xref>). The substantial socio-economic burden from the disorder, most of which is due to indirect societal costs, has been estimated at £2 billion annually in the UK (<xref rid="R11" ref-type="bibr">Das Gupta and Guest, 2002</xref>). Advances in the understanding of bipolar disorder have so far been serendipitous, with current psychopharmacology treatments being based on empirical approaches. However, in contrast with other fields of biomedical research, it has proved nearly impossible to test the in vivo efficacy of new drugs for bipolar disorder because no suitable animal models exist.</p>
+      <p id="P3">Pharmacogenetics offers a novel approach to aiding research into this condition. The isolation of genes that control the effect of drugs used to treat bipolar disorder can help to elucidate the molecular pathophysiology of the disorder and to identify the mechanisms by which existing drugs function. In order to identify these genes, and in some cases to define how they operate, researchers are starting to use model systems. This article outlines the use of the social amoeba <italic>Dictyostelium discoideum</italic> as a model system for pharmacogenetic analysis and describes the success of this model in elucidating a common mechanism of action for drugs used to treat bipolar disorder.</p>
+    </sec>
+    <sec id="S2">
+      <title>2. Pharmacogenetics of model systems</title>
+      <p id="P4">How can we identify human genes whose products may either cause a particular inherited disease or are targeted by drugs that effectively treat such diseases? This would be possible if we could change the activity of every human gene and thereby identify which genes cause the disease or alters the effect of therapeutic drugs. The systematic modulation or ablation of every gene in an animal model is currently not feasible (<xref rid="R7" ref-type="bibr">Brown and Nolan, 1998</xref>). However, this is possible in lower-order organisms, providing some basic principles are followed.</p>
+      <p id="P5">Pharmacogenetics can be successfully employed in model systems provided the following criteria are fulfilled:</p>
+      <list list-type="order" id="L1">
+        <list-item>
+          <p id="P6">The ability to knock out every gene in the organism and to isolate clonal lines of each mutant. Thus, providing loci are non-lethal, every gene in the organism can be analysed for the ability to cause drug resistance or sensitivity.</p>
+        </list-item>
+        <list-item>
+          <p id="P7">The ability to screen each mutant, enabling the identification of loci causing drug resistance or sensitivity. The drug must therefore cause some phenotypic change in the model system and the screen must be sufficiently large to ensure every gene is examined.</p>
+        </list-item>
+        <list-item>
+          <p id="P8">The presence of putative signalling cascades or orthologous target genes within the genome of the model system.</p>
+        </list-item>
+        <list-item>
+          <p id="P9">The ability to analyse the biochemical processes giving rise to resistance, requiring the availability of sufficient quantities of cellular material from each resistant clone for analysis.</p>
+        </list-item>
+      </list>
+      <p id="P10">Of course, this approach will isolate all genes whose products are affected by a drug and not just those involved in the treatment of a disorder. The additional non-therapeutic targets, which may be involved in side effects of therapy, are unlikely to be shared by other structurally diverse treatments for the same disorder. Hence, it is possible to distinguish between gene targets involved in the therapeutic effects and side effects of a drug by defining genes causing resistance to multiple treatments for the same disorder.</p>
+    </sec>
+    <sec id="S3">
+      <title>3. <italic>D. discoideum</italic>: a pharmacogenetics model system</title>
+      <p id="P11"><italic>D. discoideum</italic> has been studied extensively over the last 60 years, predominantly as a model system for cell signalling, differentiation and motility (<xref rid="R42" ref-type="bibr">Maeda et al., 1997</xref>). It is now increasingly being used in other research areas. It is a single-celled (<xref rid="F1" ref-type="fig">Fig. 1A</xref>), haploid eukaryote amoeba, containing close to 11,000 genes (around one third that found in humans). At a genetic level it is more closely related to vertebrates than to fungi and plants (<xref rid="R19" ref-type="bibr">Glockner et al., 2001</xref>). Furthermore, it has a large number of genes that are not present in other lower eukaryotes such as fungi and yeast.</p>
+      <p id="P12"><italic>D. discoideum</italic> is found worldwide in soil, where it survives by consuming micro-organisms (<xref rid="R57" ref-type="bibr">Raper, 1935</xref>). The developmental aspect of its lifecycle begins when a single cell runs out of nutrients and releases a signal (cyclic-AMP), causing migration and differentiation of around 10,000 surrounding cells to form a multi-cellular fruiting body (<xref rid="F1" ref-type="fig">Fig. 1B</xref>). This fruiting body, which is approximately 1 mm high and composed of three basic cell types (stalk, spore and basal disk), develops over a 24-h period (<xref rid="F1" ref-type="fig">Fig. 1B</xref>).</p>
+      <p id="P13">There are numerous advantages in using <italic>D. discoideum</italic> as a model system for pharmacogenetics. The single-cell stage of the <italic>D. discoideum</italic> life-cycle allows cell transformation and the subsequent isolation of isogenic mutant lines. Mutagenic screening of the whole genome is readily possible using Restriction Enzyme Mediated Integration (REMI, <xref rid="R35" ref-type="bibr">Kuspa and Loomis, 1992</xref>), whereby an antibiotic selection cassette is integrated at frequently occurring restriction enzyme sites around the genome in intact cells (<xref rid="F2" ref-type="fig">Fig. 2</xref>). This cassette can then facilitate the isolation of the flanking DNA, allowing rapid isolation of the ablated gene (<xref rid="R33" ref-type="bibr">Keim et al., 2004</xref>). The single-cell stage of growth also allows rapid production of high quantities of cells, in excess of a gram in weight.</p>
+      <p id="P14">In addition to <italic>D. discoideum</italic> providing a genetically malleable model, the multi-cellular stage of its life-cycle also provides an enormous advantage to pharmacogenetic research. The development of a homogeneous population of cells into a differentiated multi-cellular organism requires a variety of cell signalling events common to those found in vertebrates. It is therefore easy to identify changes in these common signalling pathway, caused by drug effects or gene knockouts, by identifying alterations in the morphology of the fruiting body (<xref rid="F1" ref-type="fig">Figs. 1C–G</xref> and <xref rid="F2" ref-type="fig">2</xref>). Thus, <italic>D. discoideum</italic>, the most primitive multi-cellular eukaryote, provides an excellent system for identifying the functions and targets of therapeutic drugs.</p>
+    </sec>
+    <sec id="S4">
+      <title>4. Can the effects of mood stabilising drugs be analysed in <italic>D. discoideum</italic>?</title>
+      <p id="P15">In order that <italic>D. discoideum</italic> can be used as a model system for studying the pharmacogenetics of mood disorder drugs, there must be clear phenotypic effects of these drugs on <italic>D. discoideum</italic> growth or development. In addition, signalling pathways affected by these drugs must also be present in this organism, and some knowledge of how these putative pathways function would be advantageous.</p>
+      <p id="P16">The phenotypic effects of lithium on <italic>D. discoideum</italic> development have been well documented (<xref rid="R41" ref-type="bibr">Maeda, 1970</xref>; <xref rid="R23" ref-type="bibr">Harwood et al., 1995</xref>; <xref rid="R69" ref-type="bibr">Williams et al., 1999</xref>). Cells developed in the presence of 7 mM lithium produce a small fruiting body with an increased basal disk and a severely reduced spore head (<xref rid="F1" ref-type="fig">Fig. 1C,D</xref>). At concentrations of 10 mM, fruiting body formation is lost entirely (<xref rid="F1" ref-type="fig">Fig. 1E</xref>). This two-tiered effect suggests that lithium acts on at least two targets within the cell. There is also evidence that these effects are reversible, as cells exposed to lithium can resume normal development if removed from the drug early in development.</p>
+      <p id="P17">The two primary targets of lithium in mammalian cells, glycogen synthase kinase 3 (Gsk3) and inositol phosphate (InsP) signalling, have also been well examined in <italic>D. discoideum</italic> (<xref rid="F3" ref-type="fig">Fig. 3</xref>). The first of these is the serine threonine kinase, glycogen synthase kinase A (GskA), which is orthologous to the mammalian Gsk3β (<xref rid="R34" ref-type="bibr">Klein and Melton, 1996</xref>; <xref rid="R58" ref-type="bibr">Stambolic et al., 1996</xref>). Gsk3β was originally identified through its phosphorylation of glycogen synthase in sugar metabolism (<xref rid="R15" ref-type="bibr">Embi et al., 1980</xref>). It has since been recognised as the central component of the wnt signalling pathway, controlling various cytoskeletal proteins and transcription factors, and cell patterning, during development (<xref rid="R14" ref-type="bibr">Dominguez et al., 1995</xref>; <xref rid="R24" ref-type="bibr">He et al., 1995</xref>; <xref rid="R34" ref-type="bibr">Klein and Melton, 1996</xref>; <xref rid="R58" ref-type="bibr">Stambolic et al., 1996</xref>). <xref rid="R23" ref-type="bibr">Harwood et al. (1995)</xref> have defined the role of the <italic>D. discoideum</italic> GskA enzyme in a pathway analogous to the wnt signalling pathway. Its activity is controlled by seven trans-membrane <italic>cA</italic>MP-<italic>r</italic>eceptors, analogous to the wnt receptor, frizzled (<xref rid="R38" ref-type="bibr">Louis et al., 1994</xref>; <xref rid="R18" ref-type="bibr">Ginsburg and Kimmel, 1997</xref>; <xref rid="R55" ref-type="bibr">Plyte et al., 1999</xref>; <xref rid="R30" ref-type="bibr">Kim et al., 1999</xref>, <xref rid="R31" ref-type="bibr">2002</xref>), and it has been shown to modulate a downstream β-catenin homologue, aardvark (<xref rid="R21" ref-type="bibr">Grimson et al., 2000</xref>; <xref rid="R9" ref-type="bibr">Coates et al., 2002</xref>). The phenotype of cells treated with 7 mM lithium closely resembles that of the GskA null mutant, owing to an increase in the pre-spore to pre-stalk cell ratio controlled by this enzyme (<xref rid="F1" ref-type="fig">Fig. 1C,E</xref>; <xref rid="R23" ref-type="bibr">Harwood et al., 1995</xref>). This signalling pathway is considered a likely target of mood disorders drugs (<xref rid="R22" ref-type="bibr">Hall et al., 2000</xref>; <xref rid="R54" ref-type="bibr">Phiel et al., 2001</xref>).</p>
+      <p id="P18">The remaining primary target for lithium in the cell is InsP signalling. This complex signalling system (<xref rid="F3" ref-type="fig">Fig. 3</xref>) has been extensively analysed in <italic>D. discoideum</italic> as a model for the mammalian cell signalling (<xref rid="R59" ref-type="bibr">Stephens and Irvine, 1990</xref>; <xref rid="R49" ref-type="bibr">Menniti et al., 1993</xref>; <xref rid="R65" ref-type="bibr">Van Dijken et al., 1995</xref>, <xref rid="R66" ref-type="bibr">1996</xref>; <xref rid="R67" ref-type="bibr">Van Haastert and Van Dijken, 1997</xref>). Lithium exerts its effect on InsP signalling as an uncompetitive inhibitor of a family of phosphatases that includes inositol monophosphatase (<xref rid="R36" ref-type="bibr">Leech et al., 1993</xref>) and polyphospatase (<xref rid="R73" ref-type="bibr">York et al., 1995</xref>), two enzymes involved in the breakdown and recycling of Ins(145)P<sub>3</sub> (<xref rid="F3" ref-type="fig">Fig. 3</xref>). This signalling pathway starts with the binding of a signal molecule to a membrane-bound receptor, leading to the transient activation of phospholipase C (PLC) and the generation of both diacylglycerol (DAG) and InsP<sub>3</sub> from phosphatidylinositol (4,5) bisphosphate (PIP<sub>2</sub>). DAG functions to bind and activate PKC or is used to produce phosphatidic acid via DAG kinases (for review see <xref rid="R53" ref-type="bibr">Payrastre et al., 2001</xref>). The rapid, transient peak of InsP<sub>3</sub> release following activation of PLC triggers calcium release from the endoplasmic reticulum. Termination of this InsP<sub>3</sub> signal occurs by the hydrolysis of this compound to InsP<sub>2</sub>, followed by the multi-step recycling via inositol to PIP<sub>2</sub>.</p>
+      <p id="P19">The first theory describing the action of mood disorder drugs was proposed by <xref rid="R4" ref-type="bibr">Berridge and Irvine (1984)</xref>. This theory, called the ‘inositol depletion theory’, proposed that lithium works by ‘dampening down’ an over-active InsP<sub>3</sub> signalling cascade. This over-active cascade could be caused by a variety of signalling molecules that lead to elevated PLC activity (<xref rid="F3" ref-type="fig">Fig. 3</xref>). The uncompetitive nature of lithium inhibition of both inositol phosphatases is of particular relevance, as the nature of this inhibition would result in increased enzyme inhibition at elevated substrate concentrations (<xref rid="R36" ref-type="bibr">Leech et al., 1993</xref>; <xref rid="R73" ref-type="bibr">York et al., 1995</xref>). Thus, an over-active signalling system would be inhibited to a greater degree than a normally functioning system. This is, in fact, what is seen with respect to mood stabilisation with lithium, where healthy volunteers do not experience any effects on normally occurring mood fluctuations whilst taking lithium.</p>
+      <p id="P20">Research into the function of InsP signalling has proved extremely difficult owing to the highly complex nature of the family of InsP compounds, the multitude of effecter molecules within this family, and the problems involved in separating and quantifying these compounds. It is also clear that the analysis of this signalling system is dependent upon cell type. Some authors have shown that lithium increases InsP<sub>3</sub> levels by reducing its breakdown (<xref rid="R26" ref-type="bibr">Ishima et al., 1993</xref>; <xref rid="R25" ref-type="bibr">Hokin and Dixon, 1993</xref>; <xref rid="R13" ref-type="bibr">Dixon and Hokin, 1994</xref>; <xref rid="R62" ref-type="bibr">Tritsaris et al., 2001</xref>), while others have shown it to reduce InsP<sub>3</sub> levels through inositol depletion (<xref rid="R27" ref-type="bibr">Jenkinson et al., 1993</xref>; <xref rid="R3" ref-type="bibr">Batty and Downes, 1994</xref>; <xref rid="R39" ref-type="bibr">Lubrich et al., 1997</xref>). In either case, the outcome may be to dampen down overactive InsP<sub>3</sub> signalling.</p>
+    </sec>
+    <sec id="S5">
+      <title>5. Isolation of the <italic>D. discoideum</italic> prolyl oligopeptidase gene</title>
+      <p id="P21">The first step in identifying a common mechanism of action for mood stabilisers began with a screen for lithium-resistant <italic>D. discoideum</italic> mutants. A bank of 30,000 REMI mutants was screened for resistance to 10 mM lithium during growth and development (<xref rid="R69" ref-type="bibr">Williams et al., 1999</xref>). Thirteen mutants showed increased aggregation and development in comparison to wild-type cells. The first of these mutants produced a phenotypically wild-type fruiting body in the presence of 10 mM sodium chloride, but overcame the inhibitory effect of lithium on aggregation. This mutant contained an ablated <italic>D. discoideum</italic> prolyl oligopeptidase (PO) gene, <italic>Dpo</italic>A (<xref rid="R69" ref-type="bibr">Williams et al., 1999</xref>), and showed no PO activity. To test if lithium may directly inhibit this enzyme, <italic>Dpo</italic>A was partially purified and assayed in the presence of lithium. Lithium had no effect on prolyl oligopeptidase activity at up to 20 times the plasma concentrations used in therapeutic treatment of mood disorders (<xref rid="R69" ref-type="bibr">Williams et al., 1999</xref>), suggesting this enzyme may confer lithium resistance via an indirect mechanism. The clinical importance of this gene product was recognised when PO levels were found to be elevated in patients with bipolar depression and reduced in patients with unipolar depression (<xref rid="R43" ref-type="bibr">Maes et al., 1994</xref>, <xref rid="R44" ref-type="bibr">1995</xref>).</p>
+    </sec>
+    <sec id="S6">
+      <title>6. Prolyl oligopeptidase</title>
+      <p id="P22">PO (EC 3.4.21.26), previously called prolyl endopeptidase, is a serine endopeptidase and is conserved from bacteria to man (for review see <xref rid="R56" ref-type="bibr">Polgar, 2002</xref>). The distinctive seven-bladed β-propeller structure of the enzyme functions to limit access of potential substrates to the active site (<xref rid="R17" ref-type="bibr">Fulop et al., 2000</xref>), thereby ensuring only oligopeptides of up to 30 amino acids may be cleaved at the C-terminal bond of a proline residue (<xref rid="R51" ref-type="bibr">Moriyama et al., 1988</xref>). Proline is an imino acid and hence its bond to adjacent amino acids is relatively resistant to hydrolysis by peptidases. This often leads to the protection of the prolyl-containing peptide from degradation (<xref rid="R68" ref-type="bibr">Vanhoof et al., 1995</xref>). Although the in vivo physiological targets of PO are unclear, in vitro studies have shown these peptides substrates may include a variety of peptide signals and neural hormones (e.g. angiotensin, vassopressin, substance P), all containing proline residues (<xref rid="R10" ref-type="bibr">Cunningham and O’Connor, 1997</xref>). The cleavage of target peptides may either degrade an active oligopeptide (e.g. angiotensin II, bradykinin, luliberin and substance P) or activate peptides by cleavage of an inactive precursor (e.g. gonadotropin-releasing hormone) (<xref rid="R72" ref-type="bibr">Yamanaka et al., 1999</xref>). In view of its potential role in neural hormone degradation or regulation, considerable efforts have been made in defining the substrate specificity and novel inhibitors of PO. There appears to be no sequence homology within the known in vitro targets of the enzyme. Its activity can be controlled by either the phosphorylation of the target peptide to reduce product cleavage (<xref rid="R28" ref-type="bibr">Kaspari et al., 1996</xref>) or by the regulation of enzyme activity by an unknown mechanism (<xref rid="R63" ref-type="bibr">Tsukahara et al., 1990</xref>; <xref rid="R1" ref-type="bibr">Amin et al., 1999</xref>; <xref rid="R32" ref-type="bibr">Kimura et al., 2002</xref>).</p>
+      <p id="P23">A single copy of PO has been found in all mammals, although other proline-cleaving enzymes, namely dipeptidyl peptidase IV and prolylcarboxypeptidase, cleave related substrates (<xref rid="R68" ref-type="bibr">Vanhoof et al., 1995</xref>). The enzyme is highly conserved at the amino acid level and has similar biochemical activities in different organisms (<xref rid="R69" ref-type="bibr">Williams et al., 1999</xref>). The enzyme is found in the cytoplasm of the cell and has no localisation or secretion signals, although it may be associated with the outer cell membrane (<xref rid="R37" ref-type="bibr">Lew et al., 1994</xref>; Williams and Harwood, unpublished data). The location of PO provides one of the major problems concerning its role, since its potential neural hormone targets are extra-cellular and thus would have no access to the cytoplasmically located enzyme.</p>
+      <p id="P24">PO levels have been reported to be elevated in patients with bipolar depression and schizophrenia, and decreased in patient with unipolar depression (<xref rid="R43" ref-type="bibr">Maes et al., 1994</xref>, <xref rid="R44" ref-type="bibr">1995</xref>). These studies suggested that this enzyme may function in the immune response, often found in these conditions. <xref rid="R44" ref-type="bibr">Maes et al. (1995)</xref> then <xref rid="R6" ref-type="bibr">Breen et al. (2004)</xref> also showed that the enzyme activity reduced following treatment with mood disorder drugs, raising the possibility that the enzyme may cause the disorder. PO activity has since been shown to vary in patients with a variety of medical conditions, often showing increased activity with stress and decreased activity with depression (<xref rid="R45" ref-type="bibr">Maes et al., 1998a</xref>,<xref rid="R46" ref-type="bibr">b</xref>, <xref rid="R47" ref-type="bibr">1999</xref>, <xref rid="R48" ref-type="bibr">2001</xref>). PO levels have also been found to effect learning and memory (<xref rid="R50" ref-type="bibr">Morain et al., 2002</xref>), and the enzyme is currently being examined for a role in Alzheimer’s disease (<xref rid="R61" ref-type="bibr">Toide et al., 1998</xref>). However, it is worthwhile to note that many of these studies have used non-specific substrates, hence some care needs to be taken in defining enzymatic activity. In addition, previously reported results are based upon PO cleaving activity found in blood plasma and it is not clear whether altered blood plasma levels reflect similarly altered neuronal levels.</p>
+    </sec>
+    <sec id="S7">
+      <title>7. Prolyl oligopeptidase: a modulator of inositol phosphate signalling and mood stabilising drug sensitivity</title>
+      <p id="P25">The recognition that PO is not directly affected by lithium suggested that this enzyme may modulate the targets of lithium in the cell. To define how this enzyme controlled lithium sensitivity, <xref rid="R69" ref-type="bibr">Williams et al. (1999)</xref> examined the activity of the two primary targets of lithium in the <italic>Dpo</italic>A mutant: the GskA signalling pathway and InP signalling. This mutant showed no change in the GskA signalling pathway and, as such, showed normal distribution of spore and stalk cells in the mature fruiting body (<xref rid="R23" ref-type="bibr">Harwood et al., 1995</xref>). However, it was found to have 3- fold higher InsP<sub>3</sub> levels during growth and early development, thus overcoming the reduction in InsP<sub>3</sub> levels caused by lithium-catalysed inositol depletion. This increase did not occur through altered PLC activity, but through elevated multiple inositol polyphosphate phosphatase (MIPP) activity, which controls the breakdown of higher order InsPs (<xref rid="R69" ref-type="bibr">Williams et al., 1999</xref>). This suggests, therefore, that PO may regulate the entry of InsP<sub>3</sub> into this signalling cascade from the large stored pools of higher order InP species, InsP<sub>5 – 8</sub> (<xref rid="F3" ref-type="fig">Fig. 3</xref>). The role of these higher order InP species is still undetermined, but they exist at high concentration in the cell, with InsP<sub>6</sub> at concentrations of up to 100 μM (<xref rid="R16" ref-type="bibr">French et al., 1991</xref>; <xref rid="R8" ref-type="bibr">Bunce et al., 1993</xref>). Hence the mobilisation of these stores can have a profound effect on signalling. The elevation of InsP<sub>3</sub> levels was specifically dependent upon reduced DpoA activity, as this could be reproduced using an inhibitor to PO during the first 5 h of development (<xref rid="R69" ref-type="bibr">Williams et al., 1999</xref>).</p>
+      <p id="P26">Thus, in <italic>D. discoideum</italic>, the action of lithium in the reduction of InsP<sub>3</sub> levels is reversed by the removal of PO activity. This is consistent with the ‘inositol depletion’ theory of manic depression drug action (<xref rid="R4" ref-type="bibr">Berridge and Irvine, 1984</xref>; <xref rid="R5" ref-type="bibr">Berridge et al., 1989</xref>), but adds a new regulatory element to this process. These results then pose the question, ‘‘Do all mood disorder drugs function through a common mechanism of inositol depletion?’’ To test this, <xref rid="R70" ref-type="bibr">Williams et al. (2002)</xref> examined the effect of valproic acid (VPA), on <italic>D. discoideum</italic> development. VPA, a short chain fatty acid (2 propyl pentanoic acid), was originally used as an anti-epileptic treatment and is now a first-line treatment for mood disorders (<xref rid="R29" ref-type="bibr">Kerwin, 1999</xref>). VPA–like lithium–inhibited cell aggregation in <italic>D. discoideum</italic>, but caused dissimilar morphological changes in the mature fruiting body (<xref rid="F1" ref-type="fig">Fig. 1F</xref>). Thus, the common effect of lithium and VPA was to retard development, not to cause cell fate changes in the fruiting body. Since the <italic>Dpo</italic>A mutant showed resistance to the effect of lithium over this period through elevated InsP<sub>3</sub>, <xref rid="R70" ref-type="bibr">Williams et al. (2002)</xref> examined the effect of VPA on the <italic>Dpo</italic>A mutant. They found that the ablation of the <italic>Dpo</italic>A gene conferred resistance to both lithium and VPA during aggregation, implicating the inhibition of InsP signalling as a common mechanism of action of both mood stabilising drugs (<xref rid="R70" ref-type="bibr">Williams et al., 2002</xref>).</p>
+      <p id="P27">The success of a model system in pharmacogenomic studies is dependent upon the transfer of information from the model to a suitable mammalian system. In pursuit of this, the information gained using <italic>D. discoideum</italic> was applied to primary rat dorsal root ganglia (DRG) neurons. In this study, neurons were treated with the three most commonly used mood stabilising agents—lithium, VPA and carbamazepine—with the intention of defining common effects of all three drugs (<xref rid="R70" ref-type="bibr">Williams et al., 2002</xref>). In a similar manner to that seen in <italic>D. discoideum</italic>, these structurally diverse drugs were found to have both unique and common effects. Lithium increased axonal branching and caused microtubule extension into the developing front of a primary neuron, the growth cone, as seen previously (<xref rid="F4" ref-type="fig">Fig. 4</xref>; <xref rid="R20" ref-type="bibr">Goold et al., 1999</xref>). VPA caused a decrease in branching, but had no effect on microtubules within the growth cone. Carbamazepine had no effect on either of these processes. The drug specificity of these effects suggested they were not involved in the common therapeutic action of these drugs. However, all three mood stabilising agents were found to increase the area or size of the developing growth cone (<xref rid="R70" ref-type="bibr">Williams et al., 2002</xref>; <xref rid="F4" ref-type="fig">Fig. 4</xref>). This suggests that the non-common effects of these drugs on neurons may be related to the side effects of each drug, and that the common effect on neuronal growth cone area may reflect their common mood stabilising properties.</p>
+      <p id="P28">The resistance of the <italic>D. discoideum Dpo</italic>A mutant to both lithium and VPA suggested that changes in the activity of this enzyme may control the efficacy of mood disorder drugs. To test this, DRG neuronal cultures were treated with all three mood stabilisers, in combination with two structurally distinct PO inhibitors (<xref rid="R12" ref-type="bibr">Demuth et al., 1993</xref>; <xref rid="R2" ref-type="bibr">Augustyns et al., 1995</xref>). The PO inhibitors alone had little effect on growth cone size, but both reversed size increases caused by all three mood stabilisers (<xref rid="R70" ref-type="bibr">Williams et al., 2002</xref>). These inhibitors had no effect on the unique actions of each mood stabiliser, e.g. on axonal branching. This indicated that PO activity in primary mammalian neurons controls the effect of mood stabilising drugs and suggests this effect may occur through altered InsP<sub>3</sub> signalling.</p>
+      <p id="P29">It is currently very difficult to measure InsP<sub>3</sub> levels within a cell and it is not possible to examine these levels in a developing growth cone. Many researchers overcome this by using ‘inositol rescue’, whereby the addition of inositol to a test system should allow cells to replenish inositol depletion by the uptake of exogenous inositol. Thus, if the addition of inositol overcomes an effect, that effect is likely to result from inositol depletion. To test whether the common effect of mood stabilisers occurred through inositol depletion, the experiments described above were repeated in the presence of different levels of <italic>myo</italic>-inositol. The common increase in growth cone area was reversed by the addition of 1 mM <italic>myo</italic>-inositol, suggesting that—as in <italic>Dictyostelium</italic>—these drugs work through the reduction in phosphoinositide signalling. This effect was not visible at higher <italic>myo</italic>-inositol concentrations (Williams, Mudge and Harwood, unpublished data), perhaps because high exogenous inositol concentrations have been shown to reduce <italic>myo</italic>-inositol uptake (<xref rid="R64" ref-type="bibr">van Calker and Belmaker, 2000</xref>; <xref rid="R40" ref-type="bibr">Lubrich et al., 2000</xref>; <xref rid="R71" ref-type="bibr">Wolfson et al., 2000</xref>). These results provide the most compelling support of the inositol depletion theory for the action of mood disorder drugs.</p>
+    </sec>
+    <sec id="S8">
+      <title>8. Summary</title>
+      <p id="P30">Pharmacogenetics is a growing field of research that can help elucidate the aetiologies of medical disorders and the pharmacological effects of drugs. The use of model systems to examine drug function represents a new area in this field. This approach takes advantage of the tractable nature of model systems, which enables the isolation and characterisation of novel genes involved in drug response. An example of this process is seen in the discovery of the role of PO in mood disorders. Characterisation of this gene, of previously unknown importance, suggests that it functions by modulating inositol signalling. Information gained in this study enabled targeted experiments in primary mammalian neurons and led to the identification of a common mode of action of the three most commonly used mood stabilisers. This work has clearly indicated the useful role of model systems, in particular <italic>D. discoideum</italic>, in pharmacogenetics. Further research in this model is likely to lead to the discovery of new pharmacological targets and signalling cascades involved in medical disorders.</p>
+    </sec>
+  </body>
+  <back>
+    <ack id="S10">
+      <p>R.S.B. Williams is a Wellcome Trusts Career Development Fellow. Thanks to L. Baker, J. Garthwaite and G. Breen for comments on the manuscript, and to L. Cheng and A. Mudge for preparing stained DRG cells.</p>
+    </ack>
+    <ref-list>
+      <ref id="R1">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Amin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Finkelstein</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Identification of a <italic>Drosophila</italic> prolyl endopeptidase and analysis of its expression</article-title>
+          <source>DNA Cell Biol</source>
+          <volume>18</volume>
+          <fpage>605</fpage>
+          <lpage>610</lpage>
+          <pub-id pub-id-type="pmid">10463056</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Augustyns</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Borloo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Belyaev</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rajan</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Goossens</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Hendriks</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Scharpe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Haemers</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Synthesis of peptidyl acetals as inhibitors of prolyl endopeptidase</article-title>
+          <source>Bioorg Med Chem Lett</source>
+          <volume>5</volume>
+          <fpage>1265</fpage>
+          <lpage>1270</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Batty</surname>
+              <given-names>IH</given-names>
+            </name>
+            <name>
+              <surname>Downes</surname>
+              <given-names>CP</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>The inhibition of phosphoinositide synthesis and muscarinic-receptor-mediated phospholipase C activity by Li+ as secondary, selective, consequences of inositol depletion in 1321N1 cells</article-title>
+          <source>Biochem J</source>
+          <volume>297</volume>
+          <fpage>529</fpage>
+          <lpage>537</lpage>
+          <pub-id pub-id-type="pmid">8110190</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Berridge</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Irvine</surname>
+              <given-names>RF</given-names>
+            </name>
+          </person-group>
+          <year>1984</year>
+          <article-title>Inositol trisphosphate, a novel second messenger in cellular signal transduction</article-title>
+          <source>Nature</source>
+          <volume>312</volume>
+          <fpage>315</fpage>
+          <lpage>321</lpage>
+          <pub-id pub-id-type="pmid">6095092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Berridge</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Downes</surname>
+              <given-names>CP</given-names>
+            </name>
+            <name>
+              <surname>Hanley</surname>
+              <given-names>MR</given-names>
+            </name>
+          </person-group>
+          <year>1989</year>
+          <article-title>Neural and developmental actions of lithium: a unifying hypothesis</article-title>
+          <source>Cell</source>
+          <volume>59</volume>
+          <fpage>411</fpage>
+          <lpage>419</lpage>
+          <pub-id pub-id-type="pmid">2553271</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Breen</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Gregory</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sinclair</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Collier</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>St Clair</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>RSB</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Prolyl oligopeptidase and Z-prolinal-insensitive peptidase activity decrease in bipolar disorder not schizophrenia</article-title>
+          <source>Bipolar Disord</source>
+          <volume>6</volume>
+          <fpage>156</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="pmid">15005755</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Brown</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Nolan</surname>
+              <given-names>PM</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Mouse mutagenesis—systematic studies of mammalian gene function</article-title>
+          <source>Hum Mol Genet</source>
+          <volume>7</volume>
+          <fpage>1627</fpage>
+          <lpage>1633</lpage>
+          <pub-id pub-id-type="pmid">9735384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Bunce</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>French</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Allen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Mountford</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Moor</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Greaves</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Michell</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Comparison of the levels of inositol metabolites in transformed haemopoietic cells and their normal counterparts</article-title>
+          <source>Biochem J</source>
+          <volume>289</volume>
+          <fpage>667</fpage>
+          <lpage>673</lpage>
+          <pub-id pub-id-type="pmid">8435066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Coates</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Grimson</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Bergman</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Blanton</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Loss of the beta-catenin homologue aardvark causes ectopic stalk formation in <italic>Dictyostelium</italic></article-title>
+          <source>Mech Dev</source>
+          <volume>116</volume>
+          <fpage>117</fpage>
+          <lpage>127</lpage>
+          <pub-id pub-id-type="pmid">12128211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Cunningham</surname>
+              <given-names>DF</given-names>
+            </name>
+            <name>
+              <surname>O’Connor</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title>Proline specific peptidases</article-title>
+          <source>Biochim Biophys Acta</source>
+          <volume>1343</volume>
+          <fpage>160</fpage>
+          <lpage>186</lpage>
+          <pub-id pub-id-type="pmid">9434107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Das Gupta</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Guest</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Annual cost of bipolar disorder to UK society</article-title>
+          <source>Br J Psychiatry</source>
+          <volume>180</volume>
+          <fpage>227</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="pmid">11872515</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Demuth</surname>
+              <given-names>HU</given-names>
+            </name>
+            <name>
+              <surname>Schlenzig</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Schierhorn</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Grosche</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Chapot-Chartier</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Gripon</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Design of (omega-<italic>N</italic>-(<italic>O</italic>-acyl)hydroxy amid) aminodicarboxylic acid pyrrolidides as potent inhibitors of proline-specific peptidases</article-title>
+          <source>FEBS Lett</source>
+          <volume>320</volume>
+          <fpage>23</fpage>
+          <lpage>27</lpage>
+          <pub-id pub-id-type="pmid">8096464</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Dixon</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Hokin</surname>
+              <given-names>LE</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>Lithium stimulates accumulation of second-messenger inositol 1,4,5-trisphosphate and other inositol phosphates in mouse pancreatic minilobules without inositol supplementation</article-title>
+          <source>Biochem J</source>
+          <volume>304</volume>
+          <fpage>251</fpage>
+          <lpage>258</lpage>
+          <pub-id pub-id-type="pmid">7998941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Dominguez</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Itoh</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sokol</surname>
+              <given-names>SY</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Role of glycogen synthase kinase 3 beta as a negative regulator of dorsoventral axis formation in <italic>Xenopus</italic> embryos</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>92</volume>
+          <fpage>8498</fpage>
+          <lpage>8502</lpage>
+          <pub-id pub-id-type="pmid">7667318</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Embi</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Rylatt</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>1980</year>
+          <article-title>Glycogen synthase kinase-3 from rabbit skeletal muscle. Separation from cyclic-AMP-dependent protein kinase and phosphorylase kinase</article-title>
+          <source>Eur J Biochem</source>
+          <volume>107</volume>
+          <fpage>519</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="pmid">6249596</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>French</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Bunce</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Stephens</surname>
+              <given-names>LR</given-names>
+            </name>
+            <name>
+              <surname>Lord</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>McConnell</surname>
+              <given-names>FM</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Creba</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Michell</surname>
+              <given-names>RH</given-names>
+            </name>
+          </person-group>
+          <year>1991</year>
+          <article-title>Changes in the levels of inositol lipids and phosphates during the differentiation of HL60 promyelocytic cells towards neutrophils or monocytes</article-title>
+          <source>Proc R Soc Lond, B Biol Sci</source>
+          <volume>245</volume>
+          <fpage>193</fpage>
+          <lpage>201</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Fulop</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Szeltner</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Polgar</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Catalysis of serine oligopeptidases is controlled by a gating filter mechanism</article-title>
+          <source>EMBO Rep</source>
+          <volume>1</volume>
+          <fpage>277</fpage>
+          <lpage>281</lpage>
+          <pub-id pub-id-type="pmid">11256612</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Ginsburg</surname>
+              <given-names>GT</given-names>
+            </name>
+            <name>
+              <surname>Kimmel</surname>
+              <given-names>AR</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title>Autonomous and nonautonomous regulation of axis formation by antagonistic signaling via 7-span cAMP receptors and GSK3 in <italic>Dictyostelium</italic></article-title>
+          <source>Genes Dev</source>
+          <volume>11</volume>
+          <fpage>2112</fpage>
+          <lpage>2123</lpage>
+          <pub-id pub-id-type="pmid">9284050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Glockner</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Szafranski</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Winckler</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Dingermann</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Quail</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Eichinger</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Noegel</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Rosenthal</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>The complex repeats of <italic>Dictyostelium discoideum</italic></article-title>
+          <source>Genome Res</source>
+          <volume>11</volume>
+          <fpage>585</fpage>
+          <lpage>594</lpage>
+          <pub-id pub-id-type="pmid">11282973</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Goold</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Owen</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Gordon-Weeks</surname>
+              <given-names>PR</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Glycogen synthase kinase 3beta phosphorylation of microtubule-associated protein 1B regulates the stability of microtubules in growth cones</article-title>
+          <source>J Cell Sci</source>
+          <volume>112</volume>
+          <fpage>3373</fpage>
+          <lpage>3384</lpage>
+          <pub-id pub-id-type="pmid">10504342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Grimson</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Coates</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Shipman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Blanton</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Adherens junctions and beta-catenin-mediated cell signalling in a non-metazoan organism</article-title>
+          <source>Nature</source>
+          <volume>408</volume>
+          <fpage>727</fpage>
+          <lpage>731</lpage>
+          <pub-id pub-id-type="pmid">11130075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Hall</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Lucas</surname>
+              <given-names>FR</given-names>
+            </name>
+            <name>
+              <surname>Salinas</surname>
+              <given-names>PC</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Axonal remodeling and synaptic differentiation in the cerebellum is regulated by WNT-7a signaling</article-title>
+          <source>Cell</source>
+          <volume>100</volume>
+          <fpage>525</fpage>
+          <lpage>535</lpage>
+          <pub-id pub-id-type="pmid">10721990</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Plyte</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Woodgett</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Strutt</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kay</surname>
+              <given-names>RR</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Glycogen synthase kinase 3 regulates cell fate in <italic>Dictyostelium</italic></article-title>
+          <source>Cell</source>
+          <volume>80</volume>
+          <fpage>139</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="pmid">7813009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>He</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Saint-Jeannet</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Woodgett</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Varmus</surname>
+              <given-names>HE</given-names>
+            </name>
+            <name>
+              <surname>Dawid</surname>
+              <given-names>IB</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Glycogen synthase kinase-3 and dorsoventral patterning in <italic>Xenopus</italic> embryos</article-title>
+          <source>Nature</source>
+          <volume>374</volume>
+          <fpage>617</fpage>
+          <lpage>622</lpage>
+          <pub-id pub-id-type="pmid">7715701</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Hokin</surname>
+              <given-names>LE</given-names>
+            </name>
+            <name>
+              <surname>Dixon</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>The phosphoinositide signalling system: I. Historical background: II. Effects of lithium on the accumulation of second messenger inositol 1,4,5-trisphosphate in brain cortex slices</article-title>
+          <source>Prog Brain Res</source>
+          <volume>98</volume>
+          <fpage>309</fpage>
+          <lpage>315</lpage>
+          <pub-id pub-id-type="pmid">8248520</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Ishima</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Fujimagari</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Masuzawa</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Waku</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Inositol 1,4,5-trisphosphate accumulation in brain of lithium-treated rats</article-title>
+          <source>Lipids</source>
+          <volume>28</volume>
+          <fpage>577</fpage>
+          <lpage>581</lpage>
+          <pub-id pub-id-type="pmid">8394976</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Jenkinson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Nahorski</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Challiss</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Comparative effects of lithium on the phosphoinositide cycle in rat cerebral cortex, hippocampus, and striatum</article-title>
+          <source>J Neurochem</source>
+          <volume>61</volume>
+          <fpage>1082</fpage>
+          <lpage>1090</lpage>
+          <pub-id pub-id-type="pmid">8395558</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Kaspari</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Diefenthal</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Grosche</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Schierhorn</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Demuth</surname>
+              <given-names>HU</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Substrates containing phosphorylated residues adjacent to proline decrease the cleavage by proline-specific peptidases</article-title>
+          <source>Biochim Biophys Acta</source>
+          <volume>1293</volume>
+          <fpage>147</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="pmid">8652620</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <mixed-citation publication-type="other">Kerwin, R., 1999. The Bethlem and Maudsley NHS Trust Prescription Guidelines. Duntiz, London.</mixed-citation>
+      </ref>
+      <ref id="R30">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Kim</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kimmel</surname>
+              <given-names>AR</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>The novel tyrosine kinase ZAK1 activates GSK3 to direct cell fate specification</article-title>
+          <source>Cell</source>
+          <volume>99</volume>
+          <fpage>399</fpage>
+          <lpage>408</lpage>
+          <pub-id pub-id-type="pmid">10571182</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Kim</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kimmel</surname>
+              <given-names>AR</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Receptor-dependent and tyrosine phosphatase-mediated inhibition of GSK3 regulates cell fate choice</article-title>
+          <source>Dev Cell</source>
+          <volume>3</volume>
+          <fpage>523</fpage>
+          <lpage>532</lpage>
+          <pub-id pub-id-type="pmid">12408804</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Matsui</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Expression and localization of prolyl oligopeptidase in mouse testis and its possible involvement in sperm motility</article-title>
+          <source>Zool Sci</source>
+          <volume>19</volume>
+          <fpage>93</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="pmid">12025410</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R33">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Keim</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>An inverse PCR technique to rapidly isolate the flanking DNA of <italic>Dictyostelium</italic> insertion mutants</article-title>
+          <source>Mol Biotechnol</source>
+          <volume>26</volume>
+          <fpage>221</fpage>
+          <lpage>224</lpage>
+          <pub-id pub-id-type="pmid">15004291</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R34">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Klein</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Melton</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>A molecular mechanism for the effect of lithium on development</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>93</volume>
+          <fpage>8455</fpage>
+          <lpage>8459</lpage>
+          <pub-id pub-id-type="pmid">8710892</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R35">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Kuspa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Loomis</surname>
+              <given-names>WF</given-names>
+            </name>
+          </person-group>
+          <year>1992</year>
+          <article-title>Tagging developmental genes in <italic>Dictyostelium</italic> by restriction enzyme-mediated integration of plasmid DNA 13</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>89</volume>
+          <fpage>8803</fpage>
+          <lpage>8807</lpage>
+          <pub-id pub-id-type="pmid">1326764</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R36">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Leech</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Baker</surname>
+              <given-names>GR</given-names>
+            </name>
+            <name>
+              <surname>Shute</surname>
+              <given-names>JK</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Gani</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Chemical and kinetic mechanism of the inositol monophosphatase reaction and its inhibition by Li+</article-title>
+          <source>Eur J Biochem</source>
+          <volume>212</volume>
+          <fpage>693</fpage>
+          <lpage>704</lpage>
+          <pub-id pub-id-type="pmid">8385008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R37">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Lew</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Tetaz</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Glucksman</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>AI</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>Evidence for a two-step mechanism of gonadotropin-releasing hormone metabolism by prolyl endopeptidase and metalloendopeptidase EC 3.4.24.15 in ovine hypothalamic extracts</article-title>
+          <source>J Biol Chem</source>
+          <volume>269</volume>
+          <fpage>12626</fpage>
+          <lpage>12632</lpage>
+          <pub-id pub-id-type="pmid">8175672</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R38">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Louis</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Ginsburg</surname>
+              <given-names>GT</given-names>
+            </name>
+            <name>
+              <surname>Kimmel</surname>
+              <given-names>AR</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>The cAMP receptor CAR4 regulates axial patterning and cellular differentiation during late development of <italic>Dictyostelium</italic></article-title>
+          <source>Genes Dev</source>
+          <volume>8</volume>
+          <fpage>2086</fpage>
+          <lpage>2096</lpage>
+          <pub-id pub-id-type="pmid">7958880</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R39">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Lubrich</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Patishi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kofman</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Agam</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Belmaker</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>van Calker</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title>Lithium-induced inositol depletion in rat brain after chronic treatment is restricted to the hypothalamus</article-title>
+          <source>Mol Psychiatry</source>
+          <volume>2</volume>
+          <fpage>407</fpage>
+          <lpage>412</lpage>
+          <pub-id pub-id-type="pmid">9322236</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R40">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Lubrich</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Spleiss</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Gebicke-Haerter</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>van Calker</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Differential expression, activity and regulation of the sodium/<italic>myo</italic>-inositol cotransporter in astrocyte cultures from different regions of the rat brain</article-title>
+          <source>Neuropharmacology</source>
+          <volume>39</volume>
+          <fpage>680</fpage>
+          <lpage>690</lpage>
+          <pub-id pub-id-type="pmid">10728889</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R41">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Maeda</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <year>1970</year>
+          <article-title>Influence of ionic conditions on cell differentiation and morphogenesis of the cellular slime molds</article-title>
+          <source>Dev Growth Differ</source>
+          <volume>12</volume>
+          <fpage>217</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="pmid">4925962</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R42">
+        <mixed-citation publication-type="other">Maeda, Y., Inouye, K., Takeuchi, I., 1997. <italic>Dictyostelium</italic>: A Model System for Cell and Developmental Biology. University Academy Press, Inc., Tokyo.</mixed-citation>
+      </ref>
+      <ref id="R43">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Maes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Goossens</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Scharpe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Meltzer</surname>
+              <given-names>HY</given-names>
+            </name>
+            <name>
+              <surname>D’Hondt</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Cosyns</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>Lower serum prolyl endopeptidase enzyme activity in major depression: further evidence that peptidases play a role in the pathophysiology of depression</article-title>
+          <source>Biol Psychiatry</source>
+          <volume>35</volume>
+          <fpage>545</fpage>
+          <lpage>552</lpage>
+          <pub-id pub-id-type="pmid">8038298</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R44">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Maes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Goossens</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Scharpe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Calabrese</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Desnyder</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Meltzer</surname>
+              <given-names>HY</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Alterations in plasma prolyl endopeptidase activity in depression, mania, and schizophrenia: effects of antidepressants, mood stabilizers, and antipsychotic drugs</article-title>
+          <source>Psychiatry Res</source>
+          <volume>58</volume>
+          <fpage>217</fpage>
+          <lpage>225</lpage>
+          <pub-id pub-id-type="pmid">8570777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R45">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Maes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Goossens</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>De</surname>
+              <given-names>MI</given-names>
+            </name>
+            <name>
+              <surname>Van Gastel</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Scharpe</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>1998a</year>
+          <article-title>Effects of psychological stress on serum prolyl endopeptidase and dipeptidyl peptidase IV activity in humans: higher serum prolyl endopeptidase activity is related to stress-induced anxiety</article-title>
+          <source>Psychoneuroendocrinology</source>
+          <volume>23</volume>
+          <fpage>485</fpage>
+          <lpage>495</lpage>
+          <pub-id pub-id-type="pmid">9802123</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R46">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Maes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Libbrecht</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Van Hunsel</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>AH</given-names>
+            </name>
+            <name>
+              <surname>Bonaccorso</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Goossens</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>De</surname>
+              <given-names>MI</given-names>
+            </name>
+            <name>
+              <surname>De Clerck</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Biondi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Scharpe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Janca</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>1998b</year>
+          <article-title>Lower serum activity of prolyl endopeptidase in fibromyalgia is related to severity of depressive symptoms and pressure hyperalgesia</article-title>
+          <source>Psychol Med</source>
+          <volume>28</volume>
+          <fpage>957</fpage>
+          <lpage>965</lpage>
+          <pub-id pub-id-type="pmid">9723150</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R47">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Maes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bonaccorso</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Vandoolaeghe</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Goossens</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>De</surname>
+              <given-names>MI</given-names>
+            </name>
+            <name>
+              <surname>Degroote</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Neels</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Scharpe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Janca</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Lower activity of serum peptidases in abstinent alcohol-dependent patients</article-title>
+          <source>Alcohol</source>
+          <volume>17</volume>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">9895030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R48">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Maes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Monteleone</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bencivenga</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Goossens</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Maj</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>van West</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bosmans</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Scharpe</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Lower serum activity of prolyl endopeptidase in anorexia and bulimia nervosa</article-title>
+          <source>Psychoneuroendocrinology</source>
+          <volume>26</volume>
+          <fpage>17</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="pmid">11070331</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R49">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Menniti</surname>
+              <given-names>FS</given-names>
+            </name>
+            <name>
+              <surname>Oliver</surname>
+              <given-names>KG</given-names>
+            </name>
+            <name>
+              <surname>Putney</surname>
+              <given-names>JW</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Shears</surname>
+              <given-names>SB</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Inositol phosphates and cell signaling: new views of InsP5 and InsP6</article-title>
+          <source>Trends Biochem Sci</source>
+          <volume>18</volume>
+          <fpage>53</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="pmid">8387704</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R50">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Morain</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Lestage</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>De Nanteuil</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Jochemsen</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Robin</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Guez</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Boyer</surname>
+              <given-names>PA</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>S 17092: a prolyl endopeptidase inhibitor as a potential therapeutic drug for memory impairment. Preclinical and clinical studies</article-title>
+          <source>CNS Drug Rev</source>
+          <volume>8</volume>
+          <fpage>31</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="pmid">12070525</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R51">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Moriyama</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Nakanishi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Takenaka</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <year>1988</year>
+          <article-title>Porcine muscle prolyl endopeptidase: limited proteolysis of tryptic peptides from hemoglobin beta-chains at prolyl and alanyl bonds</article-title>
+          <source>Biochim Biophys Acta</source>
+          <volume>956</volume>
+          <fpage>151</fpage>
+          <lpage>155</lpage>
+          <pub-id pub-id-type="pmid">3048412</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R52">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Muller-Oerlinghausen,</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Arguments for the specificity of the antisuicidal effect of lithium</article-title>
+          <source>Eur Arch Psychiatry Clin Neurosci</source>
+          <volume>251</volume>
+          <fpage>II72</fpage>
+          <lpage>II75</lpage>
+          <pub-id pub-id-type="pmid">11824842</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R53">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Payrastre</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Missy</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Giuriato</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bodin</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Plantavid</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gratacap</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Phosphoinositides: key players in cell signalling, in time and space</article-title>
+          <source>Cell Signal</source>
+          <volume>13</volume>
+          <fpage>377</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="pmid">11384836</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R54">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Phiel</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>EY</given-names>
+            </name>
+            <name>
+              <surname>Guenther</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Lazar</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>PS</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Histone deacetylase is a direct target of valproic acid, a potent anticonvulsant, mood stabilizer, and teratogen</article-title>
+          <source>J Biol Chem</source>
+          <volume>276</volume>
+          <fpage>36734</fpage>
+          <lpage>36741</lpage>
+          <pub-id pub-id-type="pmid">11473107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R55">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Plyte</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>O’Donovan</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Woodgett</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Glycogen synthase kinase-3 (GSK-3) is regulated during <italic>Dictyostelium</italic> development via the serpentine receptor cAR3</article-title>
+          <source>Development</source>
+          <volume>126</volume>
+          <fpage>325</fpage>
+          <lpage>333</lpage>
+          <pub-id pub-id-type="pmid">9847246</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R56">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Polgar</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>The prolyl oligopeptidase family</article-title>
+          <source>Cell Mol Life Sci</source>
+          <volume>59</volume>
+          <fpage>349</fpage>
+          <lpage>362</lpage>
+          <pub-id pub-id-type="pmid">11915948</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R57">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Raper</surname>
+              <given-names>KB</given-names>
+            </name>
+          </person-group>
+          <year>1935</year>
+          <article-title><italic>Dictyostelium discoideum</italic>, a new species of slime mold from decaying forest leaves</article-title>
+          <source>J Agric Res</source>
+          <volume>50</volume>
+          <fpage>135</fpage>
+          <lpage>147</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R58">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Stambolic</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Ruel</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Woodgett</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Lithium inhibits glycogen synthase kinase-3 activity and mimics wingless signalling in intact cells</article-title>
+          <source>Curr Biol</source>
+          <volume>6</volume>
+          <fpage>1664</fpage>
+          <lpage>1668</lpage>
+          <pub-id pub-id-type="pmid">8994831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R59">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Stephens</surname>
+              <given-names>LR</given-names>
+            </name>
+            <name>
+              <surname>Irvine</surname>
+              <given-names>RF</given-names>
+            </name>
+          </person-group>
+          <year>1990</year>
+          <article-title>Stepwise phosphorylation of <italic>myo</italic>-inositol leading to <italic>myo</italic>-inositol hexakisphosphate in <italic>Dictyostelium</italic></article-title>
+          <source>Nature</source>
+          <volume>346</volume>
+          <fpage>580</fpage>
+          <lpage>583</lpage>
+          <pub-id pub-id-type="pmid">2198472</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R60">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>ten Have</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Vollebergh</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Bijl</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Nolen</surname>
+              <given-names>WA</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Bipolar disorder in the general population in The Netherlands (prevalence, consequences and care utilisation): results from The Netherlands Mental Health Survey and Incidence Study (NEMESIS)</article-title>
+          <source>J Affect Disord</source>
+          <volume>68</volume>
+          <fpage>203</fpage>
+          <lpage>213</lpage>
+          <pub-id pub-id-type="pmid">12063148</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R61">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Toide</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Shinoda</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Miyazaki</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>A novel prolyl endopeptidase inhibitor, JTP-4819—its behavioral and neurochemical properties for the treatment of Alzheimer’s disease</article-title>
+          <source>Rev Neurosci</source>
+          <volume>9</volume>
+          <fpage>17</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="pmid">9683325</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R62">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Tritsaris</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Gromada</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Jorgensen</surname>
+              <given-names>TD</given-names>
+            </name>
+            <name>
+              <surname>Nauntofte</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Dissing</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Reduction in the rate of inositol 1,4,5 trisphosphate synthesis in rat parotid acini by lithium</article-title>
+          <source>Arch Oral Biol</source>
+          <volume>46</volume>
+          <fpage>365</fpage>
+          <lpage>373</lpage>
+          <pub-id pub-id-type="pmid">11269870</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R63">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Tsukahara</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Ishiura</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sugita</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>1990</year>
+          <article-title>Regulation of prolyl endopeptidase activity by the intracellular redox state</article-title>
+          <source>J Biol Chem</source>
+          <volume>265</volume>
+          <fpage>21448</fpage>
+          <lpage>21453</lpage>
+          <pub-id pub-id-type="pmid">2254307</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R64">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>van Calker</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Belmaker</surname>
+              <given-names>RH</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>The high affinity inositol transport system—implications for the pathophysiology and treatment of bipolar disorder</article-title>
+          <source>Bipolar Disord</source>
+          <volume>2</volume>
+          <fpage>102</fpage>
+          <lpage>107</lpage>
+          <pub-id pub-id-type="pmid">11252649</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R65">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Van Dijken</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>de Haas</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Craxton</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Erneux</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Shears</surname>
+              <given-names>SB</given-names>
+            </name>
+            <name>
+              <surname>Van Haastert</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>A novel, phospholipase C-independent pathway of inositol 1,4,5-trisphosphate formation in <italic>Dictyostelium</italic> and rat liver</article-title>
+          <source>J Biol Chem</source>
+          <volume>270</volume>
+          <fpage>29724</fpage>
+          <lpage>29731</lpage>
+          <pub-id pub-id-type="pmid">8530362</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R66">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Van Dijken</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bergsma</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Hiemstra</surname>
+              <given-names>HS</given-names>
+            </name>
+            <name>
+              <surname>De Vries</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Van Der</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>Van Haastert</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title><italic>Dictyostelium discoideum</italic> contains three inositol monophosphatase activities with different substrate specificities and sensitivities to lithium</article-title>
+          <source>Biochem J</source>
+          <volume>314</volume>
+          <fpage>491</fpage>
+          <lpage>495</lpage>
+          <pub-id pub-id-type="pmid">8670062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R67">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Van Haastert</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Van Dijken</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title>Biochemistry and genetics of inositol phosphate metabolism in <italic>Dictyostelium</italic></article-title>
+          <source>FEBS Lett</source>
+          <volume>410</volume>
+          <fpage>39</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="pmid">9247119</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R68">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Vanhoof</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Goossens</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>De</surname>
+              <given-names>MI</given-names>
+            </name>
+            <name>
+              <surname>Hendriks</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Scharpe</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Proline motifs in peptides and their biological processing</article-title>
+          <source>FASEB J</source>
+          <volume>9</volume>
+          <fpage>736</fpage>
+          <lpage>744</lpage>
+          <pub-id pub-id-type="pmid">7601338</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R69">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Williams</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Eames</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ryves</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>Viggars</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Loss of a prolyl oligopeptidase confers resistance to lithium by elevation of inositol (1,4,5) trisphosphate</article-title>
+          <source>EMBO J</source>
+          <volume>18</volume>
+          <fpage>2734</fpage>
+          <lpage>2745</lpage>
+          <pub-id pub-id-type="pmid">10329620</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R70">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Williams</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Mudge</surname>
+              <given-names>AW</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>A common mechanism of action for three mood-stabilizing drugs</article-title>
+          <source>Nature</source>
+          <volume>417</volume>
+          <fpage>292</fpage>
+          <lpage>295</lpage>
+          <pub-id pub-id-type="pmid">12015604</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R71">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Wolfson</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bersudsky</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Zinger</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Simkin</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Belmaker</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Hertz</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Chronic treatment of human astrocytoma cells with lithium, carbamazepine or valproic acid decreases inositol uptake at high inositol concentrations but increases it at low inositol concentrations</article-title>
+          <source>Brain Res</source>
+          <volume>855</volume>
+          <fpage>158</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="pmid">10650143</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R72">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Yamanaka</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lebrethon</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Vandersmissen</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Gerard</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Purnelle</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lemaitre</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wilk</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bourguignon</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Early prepubertal ontogeny of pulsatile gonadotropin-releasing hormone (GnRH) secretion: I. Inhibitory autofeedback control through prolyl endopeptidase degradation of GnRH</article-title>
+          <source>Endocrinology</source>
+          <volume>140</volume>
+          <fpage>4609</fpage>
+          <lpage>4615</lpage>
+          <pub-id pub-id-type="pmid">10499517</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R73">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>York</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Ponder</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Majerus</surname>
+              <given-names>PW</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Definition of a metal-dependent/Li(+)-inhibited phosphomonoesterase protein family based upon a conserved three-dimensional core structure</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>92</volume>
+          <fpage>5149</fpage>
+          <lpage>5153</lpage>
+          <pub-id pub-id-type="pmid">7761465</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" position="float">
+      <label>Fig. 1</label>
+      <caption>
+        <p><italic>Dictyostelium discoideum</italic> is a single-cell amoeba that develops into a multi-cellular fruiting body. A: In the single-cell stage, <italic>D. discoideum</italic> cells survive by consuming micro-organisms, or in culture conditions by fluid uptake. Here, a field of cells are shown containing the cytoplasmically located prolyl oligopeptidase protein linked to green fluorescent protein (black bar=10 μm). B: Upon starvation, cells aggregate and develop to form multi-cellular fruiting bodies composed of distinct cell types: stalk, spore and basal disk cells. Lithium functions, C, D: at 7 mM to reduce fruiting body size, and to alter developmental patterning by reducing spore cell and increasing stalk cell production, and E: at 10 mM to block aggregation. F: Elimination of the <italic>D. discoideum</italic> Gsk3 orthologue (GskA) partially phenocopies 7 mM lithium. G: These morphological effects on fruiting body development are dissimilar to that observed with valproate (VPA), whereby fruiting bodies developed on 1 mM VPA are small and show enlarged spore head and reduced stalk (white bar=0.5 mm).</p>
+      </caption>
+      <graphic xlink:href="nihms5296f1"/>
+    </fig>
+    <fig id="F2" position="float">
+      <label>Fig. 2</label>
+      <caption>
+        <p>Restriction Enzyme Mediated Integration (REMI) bank can be used to isolate mutants resistant to therapeutic drugs. A, B: <italic>Dictyostelium discoideum</italic> cells (hatched) are electroporated in the presence of an antibiotic resistance gene and a restriction enzyme. C: Transformants containing the integrated resistance gene are selected in the presence of the antibiotic and individual mutants are grown and differentiate in the presence of the drug. D: Drug-resistant colonies are selected by their ability to overcome phenotypic changes caused by the drug. The integrating cassette is used to identify the ablated gene.</p>
+      </caption>
+      <graphic xlink:href="nihms5296f2"/>
+    </fig>
+    <fig id="F3" position="float">
+      <label>Fig. 3</label>
+      <caption>
+        <p>The primary targets of lithium in the cell are the glycogen synthase kinase 3/A (Gsk3/A) and inositol trisphosphate (InsP<sub>3</sub>) signalling pathways. Lithium inhibits mammalian Gsk3 or the <italic>Dictyostelium discoideum</italic> homologue, GskA, causing changes in the cytoskeletan and in gene transcription. Lithium also inhibits the recycling of inositol phosphates, by inhibiting inositol monophosphatase (IMPase) and inositol polyphosphatase (IPPase). The ‘inositol depletion’ theory of bipolar disorder treatment proposes that the therapeutic effect of lithium is to reduce inositol levels in the cell, resulting in the attenuation of an over-stimulated InsP<sub>3</sub> signalling pathway. Prolyl oligopeptidase presumably regulates the cleavage of an oligopeptide signal controlling the activity of multiple inositol polyphosphate phosphatase (MIPP), which functions to breakdown higher-order inositol phosphates to InsP<sub>3</sub>. Abbreviations: DAG: diacylglycerol; GS: glycogen synthase; Gsk3/A, glycogen synthase kinase A/3; IMPase; inositol monophosphatase; InsP<sub>5 – 6</sub>: inositol pentakisphosphate and hexakisphosphate; InsP<sub>3</sub>: inositol (1,3,5) trisphosphate; IPPase: inositol polyphospatase; PIP<sub>2</sub>: phosphatidylinositol bisphosphate; PLC: phospholipase C.</p>
+      </caption>
+      <graphic xlink:href="nihms5296f3"/>
+    </fig>
+    <fig id="F4" position="float">
+      <label>Fig. 4</label>
+      <caption>
+        <p>Mammalian neuronal growth cones increase in size when treated with mood stabilizers. Rat dorsal root ganglia cells stained for actin (red) and acetylated tubulin (green) after treatment with mood stabilizers. A: In comparison to untreated cells treatment with B: 10 mM lithium and C: 3 mM valproate increases growth cone size. Only lithium treatment caused microtubule extension into the growth cone. Bar=10 μM.</p>
+      </caption>
+      <graphic xlink:href="nihms5296f4"/>
+    </fig>
+  </floats-group>
+</article>

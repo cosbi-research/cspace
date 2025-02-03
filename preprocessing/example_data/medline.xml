@@ -1,0 +1,147 @@
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Manual" Owner="NLM">
+      <PMID Version="1">15300303</PMID>
+      <DateCompleted>
+        <Year>2005</Year>
+        <Month>05</Month>
+        <Day>12</Day>
+      </DateCompleted>
+      <DateRevised>
+        <Year>2022</Year>
+        <Month>03</Month>
+        <Day>18</Day>
+      </DateRevised>
+      <Article PubModel="Print-Electronic">
+        <Journal>
+          <ISSN IssnType="Print">0102-311X</ISSN>
+          <JournalIssue CitedMedium="Print">
+            <Volume>20</Volume>
+            <Issue>4</Issue>
+            <PubDate>
+              <MedlineDate>2004 Jul-Aug</MedlineDate>
+            </PubDate>
+          </JournalIssue>
+          <Title>Cadernos de saude publica</Title>
+          <ISOAbbreviation>Cad Saude Publica</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>[The role of insects (Blattodea, Diptera, and Hymenoptera) as possible mechanical vectors of helminths in the domiciliary and peridomiciliary environment].</ArticleTitle>
+        <Pagination>
+          <MedlinePgn>1096-102</MedlinePgn>
+        </Pagination>
+        <Abstract>
+          <AbstractText>Helminths can be transmitted to human beings in several ways, but little attention has been given to vector or mechanical transmission of infective forms by insects. The present study surveys the helminth species present in three orders of insects that coexist in proximity with the human environment. A total of 700 insects (54 Blattodea, 275 Diptera, and 371 Hymenoptera) were collected and examined externally and individually. In the Blattodea order, only specimens of Periplaneta americana were collected, and 58.3% were carrying the following helminth forms: Oxyuridae eggs (36.4%), Ascaridae eggs (28.04%), Nematoda larvae (4.8%), Cestoda eggs (3.5%), other Nematoda (0.08%), and Toxocaridae eggs (0.08%). No Diptera and Hymenoptera were found to contain parasitic forms. This study evaluates the importance and role of insects as mechanical vectors of helminth parasites, correlated with social and environmental conditions, and suggests the use of these data for preventive purposes.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Thyssen</LastName>
+            <ForeName>Patricia Jacqueline</ForeName>
+            <Initials>PJ</Initials>
+            <AffiliationInfo>
+              <Affiliation>Departamento de Parasitologia, Instituto de Biologia, Universidade Estadual de Campinas, Campinas, Brazil. thyssenpj@yahoo.com.br</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Moretti</LastName>
+            <ForeName>Thiago de Carvalho</ForeName>
+            <Initials>Tde C</Initials>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Ueta</LastName>
+            <ForeName>Marlene Tiduko</ForeName>
+            <Initials>MT</Initials>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Ribeiro</LastName>
+            <ForeName>Odair Benedito</ForeName>
+            <Initials>OB</Initials>
+          </Author>
+        </AuthorList>
+        <Language>por</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D004740">English Abstract</PublicationType>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <VernacularTitle>O papel de insetos (Blattodea, Diptera e Hymenoptera) como possíveis vetores mecânicos de helmintos em ambiente domiciliar e peridomiciliar.</VernacularTitle>
+        <ArticleDate DateType="Electronic">
+          <Year>2004</Year>
+          <Month>07</Month>
+          <Day>29</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>Brazil</Country>
+        <MedlineTA>Cad Saude Publica</MedlineTA>
+        <NlmUniqueID>8901573</NlmUniqueID>
+        <ISSNLinking>0102-311X</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <MeshHeadingList>
+        <MeshHeading>
+          <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D003058" MajorTopicYN="N">Cockroaches</DescriptorName>
+          <QualifierName UI="Q000469" MajorTopicYN="N">parasitology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D004175" MajorTopicYN="N">Diptera</DescriptorName>
+          <QualifierName UI="Q000469" MajorTopicYN="N">parasitology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006373" MajorTopicYN="N">Helminthiasis</DescriptorName>
+          <QualifierName UI="Q000635" MajorTopicYN="Y">transmission</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006376" MajorTopicYN="N">Helminths</DescriptorName>
+          <QualifierName UI="Q000302" MajorTopicYN="Y">isolation &amp; purification</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006798" MajorTopicYN="Y">Housing</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006927" MajorTopicYN="N">Hymenoptera</DescriptorName>
+          <QualifierName UI="Q000469" MajorTopicYN="N">parasitology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D007303" MajorTopicYN="N">Insect Vectors</DescriptorName>
+          <QualifierName UI="Q000469" MajorTopicYN="Y">parasitology</QualifierName>
+        </MeshHeading>
+      </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2004</Year>
+          <Month>8</Month>
+          <Day>10</Day>
+          <Hour>5</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2005</Year>
+          <Month>5</Month>
+          <Day>13</Day>
+          <Hour>9</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2004</Year>
+          <Month>8</Month>
+          <Day>10</Day>
+          <Hour>5</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>ppublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">15300303</ArticleId>
+        <ArticleId IdType="doi">10.1590/s0102-311x2004000400025</ArticleId>
+        <ArticleId IdType="pii">S0102-311X2004000400025</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+</PubmedArticleSet>
