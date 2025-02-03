@@ -1,0 +1,6 @@
+abbreviations==0.2.5
+spacy==2.3.5
+python-Levenshtein==0.20.9
+lxml==5.1.0
+google-re2==1.1
+gensim==4.1.2

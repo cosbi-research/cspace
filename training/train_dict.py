@@ -4,10 +4,11 @@ from gensim.corpora import Dictionary
 from gensim.models.phrases import Phrases, Phraser, ENGLISH_CONNECTOR_WORDS
 
 fname=sys.argv[1]
-basename=fname[:-5]
+# load concept co-occurrence model
 phrases = Phrases.load(sys.argv[2])
 frozen_phrases = Phraser(phrases)
 
+basename=sys.argv[3]
 
 def process_sentence(s):
     return s.rstrip('\n').split()

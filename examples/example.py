@@ -41,11 +41,11 @@ _nlp = init_nlp()
 # load CSpace full model (KeyedVectors format)
 # in keyedvectors format (CANNOT SYNTHESIZE WORDS NOT SEEN DURING TRAINING)
 # mmap='r' share the same weights between multiple load call
-# cspace_model = KeyedVectors.load(cspace_path, mmap='r')
+cspace_model = KeyedVectors.load(cspace_path, mmap='r')
 
 # load CSpace full model (FastText format)
 # in FastText format (CAN SYNTHESIZE WORDS NOT SEEN DURING TRAINING)
-cspace_model = load_facebook_model(fasttext_cspace_path)
+#cspace_model = load_facebook_model(fasttext_cspace_path)
 
 # load CSpace compressed model
 # cspace_model = compress_fasttext.models.CompressedFastTextKeyedVectors.load(cspace_compressed_path)

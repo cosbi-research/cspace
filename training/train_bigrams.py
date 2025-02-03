@@ -7,7 +7,7 @@ import sys
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        sys.stderr.write("./bigram.py dump_file base_name\n")
+        sys.stderr.write("./bigram.py unigram_dump_file base_name\n")
         sys.exit(1)
 
     dump_file = sys.argv[1]
