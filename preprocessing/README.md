@@ -1,3 +1,10 @@
+# Dependencies
+Activate virtualenv and install dependencies with
+
+```
+pip install -r requirements.txt
+```
+
 # Step 1. Build unigram dataset from raw files
 
 preprocess PubMed (medline), Bio/MedRxiv and PubmedCentral, composed of:
