@@ -1,3 +1,11 @@
+CSpace is a concise word embedding of bio-medical concepts that outperforms all alternatives in terms of out-of-vocabulary ratio (OOV) and semantic textual similarity (STS) task and have comparable performance with respect to transformer-based alternatives in the sentence similarity task.
+
+CSpace also encodes ontological IDs (MeSH, NCBI gene and tax ID) and can be used for measuring the relatedness of diseases, genes or conditions, potentially unlocking previously unknown disease-condition association, as well as for semantic synonyms search.
+
+All our fine-tuned embeddings can be obtained from Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14781672.svg)](https://doi.org/10.5281/zenodo.14781672)
+
+
+
 # Quick start with CSpace
 
 go to the `examples` folder, 
