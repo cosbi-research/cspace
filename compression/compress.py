@@ -3,7 +3,7 @@
 
 """
 This script compress the fasttext version of CSpace with
-- product quantization: for all vectors, divide 154 dimensions in 76 vectors of 2 dimensions and cluster to 255 clusters.
+- product quantization: for all vectors, divide 152 dimensions in 76 vectors of 2 dimensions and cluster to 255 clusters.
                         this raises a byte-encoding for every cluster to be used in place of the original dimension
                         compressing 2 floats of 4 bytes to 1 byte (compression rate: 1/8)
 - feature selection: top-100.000 word vectors by frequency (more frequent concepts tend to have better embeddings)
