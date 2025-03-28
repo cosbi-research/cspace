@@ -32,7 +32,7 @@ if __name__ == "__main__":
     else:
         top_vocab_list = model.key_to_index.items()
     
-    with open('metadata.tsv','w') as mf, open('vectors.tsv','w') as vf:
+    with open('metadata.'+str(new_vocab_size)+'.tsv','w') as mf, open('vectors.'+str(new_vocab_size)+'.tsv','w') as vf:
         for concept, idx in top_vocab_list:
             # ith concept
             mf.write(concept+'\n')
