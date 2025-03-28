@@ -6,8 +6,8 @@
         100000,
         152
       ],
-      "tensorPath": "https://zenodo.org/records/14781672/files/vectors.100k.tsv",
-      "metadataPath": "https://zenodo.org/records/14781672/files/metadata.100k.tsv"
+      "tensorPath": "https://media.githubusercontent.com/media/cosbi-research/cspace/refs/heads/main/visualization/vectors.100k.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/cosbi-research/cspace/refs/heads/main/visualization/metadata.100k.tsv"
     }
   ]
 }
