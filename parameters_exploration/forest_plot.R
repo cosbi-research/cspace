@@ -476,7 +476,6 @@ t10.small <- ggplot(data=fresults.small) +
 
 p.paper<-grid.arrange(t1.small, p1.small, widths=c(1,4))
 #dev.off()
-ggsave(file=file.path(out.folder, paste(paste0("forest_plot paper.tiff"), sep = "")), plot=p.paper, width=10, height=4, limitsize=F)
-ggsave(file=file.path(out.folder, paste(paste0("forest_plot paper.jpg"), sep = "")), plot=p.paper, width=10, height=4, limitsize=F)
+ggsave(file=file.path(out.folder, paste(paste0("Figure 3.png"), sep = "")), plot=p.paper, width=10, height=4, limitsize=F, dpi=1200)
 
 
