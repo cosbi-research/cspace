@@ -1,0 +1,1 @@
+CSpace full and small models are available in the [zenodo](https://zenodo.org/records/14781672) repository.
