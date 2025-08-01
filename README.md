@@ -6,9 +6,16 @@ CSpace is a concise word embedding of bio-medical concepts that outperforms all 
 
 CSpace also encodes ontological IDs (MeSH, NCBI gene and tax ID) and can be used for measuring the relatedness of diseases, genes or conditions, potentially unlocking previously unknown disease-condition association, as well as for semantic synonyms search.
 
+For details, citation and contact information see the paper [CSpace: a concept embedding space for biomedical applications](https://doi.org/10.1093/bioinformatics/btaf376)
+
 All our fine-tuned embeddings can be obtained from Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14781672.svg)](https://doi.org/10.5281/zenodo.14781672)
 
 An insightful interactive visualization of the top 100.000 CSpace concept embeddings (ordered by frequency) is available [here](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/cosbi-research/cspace/refs/heads/main/visualization/projector_config.json).
+
+Basic examples on how to perform concept and sentence similarity can be found in the [examples](examples) folder.
+
+An introductory medical concept analysis can be found in the [demo](demo) folder.
+
 
 # Table of Contents
 - [Quick start with CSpace](#quick-start-with-cspace)
