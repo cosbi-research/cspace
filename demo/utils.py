@@ -48,7 +48,7 @@ def getmesh(bioentity_id):
 
 
 MAX_RETRY=2
-NCBI_API_KEY="db063d3e7996fb6f134783b8f5fe1bfe9208"
+NCBI_API_KEY="<YOUR_NCBI_API_KEY>"  # Replace with your actual NCBI API key
 
 def getgene2(bioentity_ids):
     symbols=[]
