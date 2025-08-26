@@ -1,5 +1,79 @@
 import requests,json
 
+
+def navigate_mesh_ontology(oid):
+    middle_ids=[]
+    middle_names=[]
+    top_ids=[]
+    top_names=[]
+    
+    ok = False
+    while not ok:
+        try:
+            response = requests.get('https://id.nlm.nih.gov/mesh/'+mid+'.json')
+            orig_resp = jresp = response.json()
+            ok = True
+        except requests.exceptions.ConnectionError:
+            time.sleep(1)
+
+    other_branches = deque()
+    while jresp is not None:
+        if 'broaderDescriptor' in jresp or 'preferredMappedTo' in jresp:
+            if 'broaderDescriptor' in jresp:
+                bdescs = jresp['broaderDescriptor']
+            elif 'preferredMappedTo' in jresp:
+                bdescs = jresp['preferredMappedTo']
+
+            if type(bdescs) is str:
+                bdescs = [bdescs]
+
+            for bdesc in bdescs:
+                bid = bdesc.split('/')[-1]
+                #if bid not in unwanted_descriptors:
+                ok = False
+                while not ok:
+                    try:
+                        bresponse = requests.get('https://id.nlm.nih.gov/mesh/'+bid+'.json')
+                        jbresp = bresponse.json()
+                        ok = True
+                    except requests.exceptions.ConnectionError:
+                        time.sleep(1)
+
+                bname_candidates = jbresp['label']
+                if type(bname_candidates) is dict:
+                    bname_candidates = [bname_candidates]
+
+                bname = None
+                for bname_candidate in bname_candidates:
+                    if bname_candidate['@language'] == 'en':
+                        bname = bname_candidate['@value']
+                        break
+
+                if bname is None:
+                    bname = bname_candidates[0]['@value']
+
+                if bid in middle_ids or bid in top_ids:
+                    # avoid loops
+                    continue
+                
+                if 'broaderDescriptor' in jbresp:
+                    middle_ids.append( bid )
+                    middle_names.append( bname )
+                    other_branches.append(jbresp)
+                else:
+                    top_ids.append( bid )
+                    top_names.append( bname )
+
+            if len(other_branches) > 0:
+                jresp = other_branches.pop()
+            else:
+                jresp = None
+        else:
+            jresp = None
+    
+    return (middle_ids,middle_names,top_ids,top_names)
+
+
 def getmesh(bioentity_id):
     meshid=bioentity_id.upper()
     
