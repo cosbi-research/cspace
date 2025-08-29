@@ -1,5 +1,5 @@
-import requests,json
-
+import requests,json,time
+from collections import deque 
 
 def navigate_mesh_ontology(oid):
     middle_ids=[]
@@ -10,9 +10,11 @@ def navigate_mesh_ontology(oid):
     ok = False
     while not ok:
         try:
-            response = requests.get('https://id.nlm.nih.gov/mesh/'+mid+'.json')
+            response = requests.get('https://id.nlm.nih.gov/mesh/'+oid+'.json')
             orig_resp = jresp = response.json()
             ok = True
+        except json.decoder.JSONDecodeError as e:
+            raise Exception(response.text, e)
         except requests.exceptions.ConnectionError:
             time.sleep(1)
 
